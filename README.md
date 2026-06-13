@@ -1,27 +1,29 @@
-# Hi, I'm Sanjeev Singh 👋
+# Hi, I'm Sanjeev Singh
 
-## DevOps Engineer | Terraform Enthusiast | Azure Infrastructure Builder
+## Cloud Infrastructure Engineer | DevOps Engineer | Azure & Terraform
 
-I am a DevOps Engineer focused on building scalable, reusable, and production-ready cloud infrastructure using Infrastructure as Code (IaC) principles.
+I design and build cloud infrastructure using Infrastructure as Code (IaC) principles, with a focus on Azure, Terraform, automation, and scalable platform engineering practices.
 
-Currently, I am developing a comprehensive Azure Infrastructure Foundation project using Terraform, documenting every design decision, dependency pattern, validation process, and deployment workflow to simulate real-world enterprise infrastructure engineering practices.
+My current work centers around developing production-style Azure infrastructure projects that emphasize modular design, reusable components, dependency management, infrastructure validation, and comprehensive technical documentation.
 
----
-
-## 🚀 What I'm Working On
-
-* Building reusable Azure Terraform modules
-* Designing modular Infrastructure as Code architectures
-* Implementing explicit and implicit Terraform dependency patterns
-* Creating enterprise-style Git and GitHub workflows
-* Learning Azure Landing Zone architecture
-* Expanding my DevSecOps and Cloud Engineering skill set
+I believe infrastructure should be predictable, version-controlled, and reproducible.
 
 ---
 
-## 🛠️ Core Skills
+## Current Focus
 
-### Cloud
+* Designing modular Azure infrastructure using Terraform
+* Building reusable Infrastructure as Code components
+* Implementing Terraform dependency and state management patterns
+* Documenting architecture decisions and deployment workflows
+* Exploring Azure Landing Zone architecture and enterprise cloud design
+* Strengthening DevOps and DevSecOps engineering practices
+
+---
+
+## Core Technologies
+
+### Cloud Platforms
 
 * Microsoft Azure
 
@@ -30,98 +32,77 @@ Currently, I am developing a comprehensive Azure Infrastructure Foundation proje
 * Terraform
 * Terraform Modules
 * Terraform State Management
+* Infrastructure Automation
 
 ### DevOps
 
 * Git
 * GitHub
 * CI/CD Concepts
-* Infrastructure Automation
+* Automation Workflows
 
-### Operating Systems
+### Operating Systems & Scripting
 
 * Linux
 * macOS
-
-### Scripting
-
 * Bash
 
 ---
 
-## 📂 Featured Project
+## Featured Project
 
-### Terraform Azure Foundation
+### Azure Infrastructure Foundation
 
-A hands-on Azure Infrastructure Foundation project focused on:
+A hands-on Azure infrastructure project built to simulate real-world cloud engineering practices.
 
-* Modular Terraform architecture
-* Resource Group module design
-* Storage Account module design
-* Explicit dependency implementation
-* Implicit dependency implementation
-* Architecture documentation
-* Validation evidence
-* Enterprise Git workflow
+#### Key Areas
 
-Repository Highlights:
+* Modular Terraform Architecture
+* Resource Group Management
+* Virtual Networks and Subnets
+* Network Security Groups
+* Public IP and NIC Management
+* Linux and Windows Virtual Machines
+* VNet Peering
+* Infrastructure Documentation
+* Validation and Testing Procedures
 
-✅ Reusable Modules
+#### Repository Highlights
 
-✅ Input Validation
-
-✅ Standardized Outputs
-
-✅ Architecture Diagrams
-
-✅ Deployment Evidence
-
-✅ Pull Request Driven Development
+* Reusable Terraform Components
+* Standardized Inputs and Outputs
+* Architecture Diagrams
+* Deployment Evidence
+* Version-Controlled Infrastructure
+* Enterprise-Oriented Project Structure
 
 ---
 
-## 📈 Current Learning Path
+## Professional Background
 
-```text
-Azure Foundations
-│
-├── Resource Groups ✅
-├── Storage Accounts ✅
-├── Virtual Networks ⏳
-├── Subnets ⏳
-├── NSGs ⏳
-├── Public IPs ⏳
-├── NICs ⏳
-├── Virtual Machines ⏳
-└── Azure Landing Zones ⏳
-```
+* DevOps Engineering Experience
+* 4 Years of Banking Industry Experience
+* Experience Supporting Enterprise Environments
+* Strong Interest in Cloud Infrastructure, Automation, and Platform Engineering
 
 ---
 
-## 💡 Professional Background
+## 2026 Objectives
 
-* 5+ years of experience in DevOps Engineering
-* 4 years of prior banking experience
-* Experience supporting enterprise-scale environments
-* Strong interest in Cloud Infrastructure, Automation, and DevSecOps
-
----
-
-## 🎯 2026 Goals
-
-* Complete Azure Infrastructure Foundation project
-* Build end-to-end Azure Landing Zone implementation
-* Deepen expertise in Terraform and Azure architecture
-* Contribute more to open-source and infrastructure projects
-* Advance further into DevSecOps practices
+* Complete Azure Infrastructure Foundation Project
+* Expand into Azure Landing Zone Architecture
+* Advance Terraform Design and Module Development Skills
+* Deepen Cloud Security and DevSecOps Knowledge
+* Contribute to Open Source and Community Projects
 
 ---
 
-## 📫 Connect With Me
+## Connect
 
-* LinkedIn: [www.linkedin.com/in/sanjiivsingh](http://www.linkedin.com/in/sanjiivsingh)
-* GitHub: github.com/sanjiivsingh
+LinkedIn: [www.linkedin.com/in/sanjiivsingh](http://www.linkedin.com/in/sanjiivsingh)
+
+GitHub: github.com/sanjiivsingh
 
 ---
 
-*"Infrastructure should be reproducible, scalable, and documented. Everything else is technical debt."*
+> "Infrastructure should be reproducible, scalable, and documented. Everything else is technical debt."
