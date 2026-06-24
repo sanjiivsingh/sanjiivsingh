@@ -4,40 +4,52 @@
 
 ### Cloud & DevOps Engineer • Azure Specialist • Freelance Infrastructure Consultant
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=30&duration=2500&pause=800&color=8B0000&center=true&vCenter=true&width=1100&lines=Designing+Cloud+Platforms+That+Scale;Terraform+Infrastructure+Automation;Azure+Landing+Zones+%26+Governance;CI%2FCD+Engineering+at+Scale;Building+Reliable+Cloud+Foundations" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=2500&pause=1000&color=8B0000&center=true&vCenter=true&width=1100&lines=Azure+Infrastructure+Engineering;Terraform+Infrastructure+Automation;GitHub+Actions+CI%2FCD;Cloud+Governance+and+Security;Available+for+Freelance+Projects" />
 
 <br>
 
-![](https://img.shields.io/badge/STATUS-AVAILABLE_FOR_FREELANCE_PROJECTS-brightgreen?style=for-the-badge)
+![](https://img.shields.io/badge/STATUS-AVAILABLE_FOR_FREELANCE_PROJECTS-success?style=for-the-badge)
 
-![](https://img.shields.io/badge/AZURE-CLOUD_ENGINEER-0078D4?style=for-the-badge)
-![](https://img.shields.io/badge/TERRAFORM-INFRASTRUCTURE_AS_CODE-623CE4?style=for-the-badge)
-![](https://img.shields.io/badge/GITHUB_ACTIONS-CI%2FCD_AUTOMATION-2088FF?style=for-the-badge)
+![](https://img.shields.io/badge/EXPERIENCE-10%2B_YEARS-blue?style=for-the-badge)
+
+![](https://img.shields.io/badge/CLOUD-MICROSOFT_AZURE-0078D4?style=for-the-badge)
+
+![](https://img.shields.io/badge/IAC-TERRAFORM-623CE4?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🚀 Building Cloud Infrastructure That Works While You Sleep
+# 🚀 BUILDING CLOUD PLATFORMS THAT SCALE
 
-Most organizations don't struggle because of the cloud.
+I design, automate, and manage secure cloud infrastructure using Microsoft Azure, Terraform, and modern DevOps practices.
 
-They struggle because infrastructure is inconsistent, deployments are manual, and operations depend on tribal knowledge.
-
-I help businesses solve that problem by designing secure Azure environments, automating infrastructure with Terraform, and building CI/CD platforms that enable teams to deploy faster with confidence.
-
-For the last **10+ years**, I have worked across technology and enterprise environments, helping transform manual operations into automated, scalable, and production-ready systems.
+Helping organizations move from manual operations to automated, scalable, and production-ready cloud environments.
 
 ---
 
-## ⚡ WHAT I BRING TO THE TABLE
+# 🌍 CLOUD COMMAND CENTER
+
+| Component                | Status         |
+| ------------------------ | -------------- |
+| ☁️ Azure Infrastructure  | 🟢 Operational |
+| 🏗 Terraform Automation  | 🟢 Active      |
+| 🚀 CI/CD Pipelines       | 🟢 Running     |
+| 🔒 Security & Governance | 🟢 Enforced    |
+| 📊 Monitoring & Alerting | 🟢 Healthy     |
+
+---
+
+# ⚡ WHAT I DO
 
 <table>
 <tr>
 
-<td align="center" width="25%">
+<td align="center" width="33%">
 
-### ☁️ Azure
+### ☁️ Cloud Architecture
+
+Azure Infrastructure
 
 Landing Zones
 
@@ -45,49 +57,33 @@ Networking
 
 Security
 
-Governance
-
 </td>
 
-<td align="center" width="25%">
+<td align="center" width="33%">
 
-### 🏗 Terraform
+### 🏗 Infrastructure as Code
 
-IaC
+Terraform
 
-Modules
+Reusable Modules
 
 Automation
 
-State Management
+Environment Provisioning
 
 </td>
 
-<td align="center" width="25%">
+<td align="center" width="33%">
 
-### 🔄 CI/CD
+### 🚀 CI/CD Engineering
 
 GitHub Actions
 
-Release Automation
+Pipeline Automation
 
-Deployment Pipelines
+Release Management
 
-DevOps Workflows
-
-</td>
-
-<td align="center" width="25%">
-
-### 🐧 Platform Ops
-
-Linux
-
-Docker
-
-Monitoring
-
-Cloud Operations
+Deployments
 
 </td>
 
@@ -96,71 +92,142 @@ Cloud Operations
 
 ---
 
-## 🌐 PLATFORM OVERVIEW
+# 🔄 CLOUD DELIVERY PIPELINE
 
-```text
-┌──────────────────────────────────────────┐
-│              AZURE CLOUD                 │
-└──────────────────────────────────────────┘
-                    ▲
-                    │
-            Terraform IaC
-                    ▲
-                    │
-          GitHub Actions CI/CD
-                    ▲
-                    │
-              Source Code
-                    ▲
-                    │
-               Developers
-```
+<table>
+<tr>
+
+<td align="center" width="20%">
+
+### 👨‍💻
+
+### CODE
+
+Developers
+
+Repositories
+
+Version Control
+
+</td>
+
+<td align="center" width="20%">
+
+### ⚙️
+
+### BUILD
+
+GitHub Actions
+
+Validation
+
+Testing
+
+</td>
+
+<td align="center" width="20%">
+
+### 🏗️
+
+### PROVISION
+
+Terraform
+
+Infrastructure
+
+Automation
+
+</td>
+
+<td align="center" width="20%">
+
+### ☁️
+
+### DEPLOY
+
+Azure
+
+Networking
+
+Security
+
+</td>
+
+<td align="center" width="20%">
+
+### 📊
+
+### OPERATE
+
+Monitoring
+
+Alerts
+
+Optimization
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## 🔥 AREAS OF EXPERTISE
+# 🛠 TECHNOLOGY ECOSYSTEM
 
-🟦 Azure Infrastructure Architecture
+<table>
+<tr>
 
-🟪 Terraform Infrastructure as Code
+<td align="center">
+<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg"><br>
+<b>Azure</b>
+</td>
 
-🟩 Azure Landing Zones
+<td align="center">
+<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg"><br>
+<b>Terraform</b>
+</td>
 
-🟨 GitHub Actions CI/CD
+<td align="center">
+<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"><br>
+<b>GitHub</b>
+</td>
 
-🟥 Cloud Governance & Security
+<td align="center">
+<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"><br>
+<b>Docker</b>
+</td>
 
-🟧 Linux Administration
+</tr>
 
-🟫 Monitoring & Operations
+<tr>
 
-⬛ Platform Engineering
+<td align="center">
+<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"><br>
+<b>Linux</b>
+</td>
+
+<td align="center">
+<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg"><br>
+<b>Bash</b>
+</td>
+
+<td align="center">
+<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"><br>
+<b>Git</b>
+</td>
+
+<td align="center">
+<img width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"><br>
+<b>PowerShell</b>
+</td>
+
+</tr>
+
+</table>
 
 ---
 
-## 🛠 TECHNOLOGY STACK
-
-<div align="center">
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
-
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge\&logo=terraform\&logoColor=white)
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge\&logo=powershell\&logoColor=white)
-
-</div>
-
----
-
-## 📊 GITHUB METRICS
+# 📊 GITHUB ANALYTICS
 
 <div align="center">
 
@@ -180,39 +247,41 @@ Cloud Operations
 
 ---
 
-## 💼 FREELANCE SERVICES
+# 💼 FREELANCE SERVICES
 
 ☁️ Azure Infrastructure Setup
 
-⚙️ Terraform Automation
+🏗 Terraform Automation
 
-🚀 CI/CD Pipeline Implementation
+🚀 GitHub Actions CI/CD
 
-🔒 Cloud Security & Governance
+🔒 Cloud Governance & Security
 
-📊 Monitoring & Operational Excellence
+📊 Monitoring & Alerting
 
-🏗 Landing Zone Implementation
+🌍 Azure Landing Zone Implementation
 
 ---
 
-## 🎯 PHILOSOPHY
+# ⚡ ENGINEERING PRINCIPLES
 
-> Infrastructure should be version controlled.
->
-> Deployments should be automated.
->
-> Security should be built in.
->
-> Reliability should be designed, not hoped for.
->
-> Cloud should accelerate business growth.
+> Build Once. Automate Forever.
+
+> Infrastructure Should Be Version Controlled.
+
+> Security Should Be Built In.
+
+> Monitoring Should Be Automatic.
+
+> Cloud Should Accelerate Business Growth.
 
 ---
 
 <div align="center">
 
-### 🚀 BUILD • AUTOMATE • SCALE
+## 🚀 BUILD • AUTOMATE • DEPLOY • SCALE
+
+Cloud Infrastructure • Platform Engineering • DevOps Automation
 
 <img src="https://komarev.com/ghpvc/?username=sanjiivsingh&label=PROFILE+VIEWS&style=for-the-badge&color=8B0000" />
 
