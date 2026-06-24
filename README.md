@@ -1,108 +1,144 @@
-# Hi, I'm Sanjeev Singh
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Hey, I'm Sanjeev Singh
 
-## Cloud Infrastructure Engineer | DevOps Engineer | Azure & Terraform
+<div align="center">
 
-I design and build cloud infrastructure using Infrastructure as Code (IaC) principles, with a focus on Azure, Terraform, automation, and scalable platform engineering practices.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=1000&lines=Cloud+%7C+DevOps+Engineer;Azure+Infrastructure+Automation;Terraform+%7C+GitHub+Actions+%7C+Docker;Building+Scalable+Cloud+Platforms;Always+Learning+Something+New+🚀" />
 
-My current work centers around developing production-style Azure infrastructure projects that emphasize modular design, reusable components, dependency management, infrastructure validation, and comprehensive technical documentation.
-
-I believe infrastructure should be predictable, version-controlled, and reproducible.
+</div>
 
 ---
 
-## Current Focus
+## ⚡ About Me
 
-* Designing modular Azure infrastructure using Terraform
-* Building reusable Infrastructure as Code components
-* Implementing Terraform dependency and state management patterns
-* Documenting architecture decisions and deployment workflows
-* Exploring Azure Landing Zone architecture and enterprise cloud design
-* Strengthening DevOps and DevSecOps engineering practices
-
----
-
-## Core Technologies
-
-### Cloud Platforms
-
-* Microsoft Azure
-
-### Infrastructure as Code
-
-* Terraform
-* Terraform Modules
-* Terraform State Management
-* Infrastructure Automation
-
-### DevOps
-
-* Git
-* GitHub
-* CI/CD Concepts
-* Automation Workflows
-
-### Operating Systems & Scripting
-
-* Linux
-* macOS
-* Bash
+```yaml
+name: Sanjeev Singh
+role: DevOps Engineer
+experience: 10+ Years
+cloud: Azure
+iac: Terraform
+cicd: GitHub Actions
+containers: Docker
+os: Linux
+monitoring: Azure Monitor
+automation: PowerShell | Bash
+currently_learning:
+  - Kubernetes
+  - Azure Landing Zones
+  - Advanced CI/CD
+```
 
 ---
 
-## Featured Project
+## 🌌 Tech Universe
 
-### Azure Infrastructure Foundation
+<div align="center">
 
-A hands-on Azure infrastructure project built to simulate real-world cloud engineering practices.
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge\&logo=terraform\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge\&logo=powershell\&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge\&logo=gnu-bash)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 
-#### Key Areas
-
-* Modular Terraform Architecture
-* Resource Group Management
-* Virtual Networks and Subnets
-* Network Security Groups
-* Public IP and NIC Management
-* Linux and Windows Virtual Machines
-* VNet Peering
-* Infrastructure Documentation
-* Validation and Testing Procedures
-
-#### Repository Highlights
-
-* Reusable Terraform Components
-* Standardized Inputs and Outputs
-* Architecture Diagrams
-* Deployment Evidence
-* Version-Controlled Infrastructure
-* Enterprise-Oriented Project Structure
+</div>
 
 ---
 
-## Professional Background
+# 🚀 DevOps Workflow
 
-* DevOps Engineering Experience
-* 4 Years of Banking Industry Experience
-* Experience Supporting Enterprise Environments
-* Strong Interest in Cloud Infrastructure, Automation, and Platform Engineering
+```text
+Developer
+    │
+    ▼
+GitHub Repository
+    │
+    ▼
+GitHub Actions
+    │
+    ▼
+Terraform Plan
+    │
+    ▼
+Terraform Apply
+    │
+    ▼
+Azure Infrastructure
+    │
+    ▼
+Monitoring & Optimization
+```
 
 ---
 
-## 2026 Objectives
+## 📈 GitHub Analytics
 
-* Complete Azure Infrastructure Foundation Project
-* Expand into Azure Landing Zone Architecture
-* Advance Terraform Design and Module Development Skills
-* Deepen Cloud Security and DevSecOps Knowledge
-* Contribute to Open Source and Community Projects
+<div align="center">
 
----
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sanjiivsingh&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-## Connect
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=sanjiivsingh&theme=tokyonight&hide_border=true"/>
 
-LinkedIn: [www.linkedin.com/in/sanjiivsingh](http://www.linkedin.com/in/sanjiivsingh)
-
-GitHub: github.com/sanjiivsingh
+</div>
 
 ---
 
-> "Infrastructure should be reproducible, scalable, and documented. Everything else is technical debt."
+## 🔥 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjiivsingh&theme=tokyo-night&hide_border=true"/>
+
+</div>
+
+---
+
+## 🌍 Current Focus
+
+```diff
++ Azure Landing Zones
++ Enterprise Cloud Architecture
++ Infrastructure as Code
++ GitHub Actions CI/CD
++ Kubernetes Fundamentals
++ DevOps Interview Preparation
+```
+
+---
+
+## 💡 Philosophy
+
+> Automate Everything.
+>
+> If you do it twice, script it.
+>
+> If you do it ten times, automate it.
+>
+> If you do it a hundred times, build a platform.
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://github.com/sanjiivsingh">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://linkedin.com">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+### ⚡ Building Cloud Infrastructure One Commit At A Time
+
+<img src="https://komarev.com/ghpvc/?username=sanjiivsingh&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge"/>
+
+</div>
