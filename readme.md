@@ -214,7 +214,6 @@ Documentation
 
 # Current Focus
 
-```text
 ☁ Azure Landing Zone
 
 🏗 Terraform Module Development
@@ -230,9 +229,6 @@ Documentation
 📦 Platform Engineering
 
 ⚙ Infrastructure Automation
-````
-
----
 
 ---
 
@@ -719,7 +715,6 @@ Kubernetes                           ██████████░░░░�
 Azure DevOps                         █████████░░░░░░░░░░ 45%
 
 GitOps                               ███████░░░░░░░░░░░░ 35%
-```
 
 ---
 
