@@ -1,14 +1,15 @@
+````markdown
 <div align="center">
 
 # ☁️ SANJEEV SINGH
 
-### Cloud & DevOps Engineer • Azure Specialist • Freelance Infrastructure Consultant
+### Azure Cloud Architect • Terraform Expert • DevOps Engineer • Freelance Cloud Consultant
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=2500&pause=1000&color=8B0000&center=true&vCenter=true&width=1100&lines=Azure+Infrastructure+Engineering;Terraform+Infrastructure+Automation;GitHub+Actions+CI%2FCD;Cloud+Governance+and+Security;Available+for+Freelance+Projects" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2500&pause=1200&color=0078D4&center=true&vCenter=true&width=1000&lines=Azure+Cloud+Architecture;Terraform+Infrastructure+as+Code;GitHub+Actions+CI%2FCD;Azure+Landing+Zone+Implementation;Cloud+Governance+%26+Security;Cloud+Migration+%26+Modernization;Monitoring+%26+Observability;Available+for+Freelance+Projects" />
 
 <br>
 
-![](https://img.shields.io/badge/STATUS-AVAILABLE_FOR_FREELANCE_PROJECTS-success?style=for-the-badge)
+![](https://img.shields.io/badge/STATUS-AVAILABLE_FOR_PROJECTS-success?style=for-the-badge)
 
 ![](https://img.shields.io/badge/EXPERIENCE-10%2B_YEARS-blue?style=for-the-badge)
 
@@ -16,218 +17,206 @@
 
 ![](https://img.shields.io/badge/IAC-TERRAFORM-623CE4?style=for-the-badge)
 
+![](https://img.shields.io/badge/CI/CD-GITHUB_ACTIONS-2088FF?style=for-the-badge)
+
 </div>
 
 ---
 
-# 🚀 BUILDING CLOUD PLATFORMS THAT SCALE
+# 👋 Hello, I'm Sanjeev
 
-I design, automate, and manage secure cloud infrastructure using Microsoft Azure, Terraform, and modern DevOps practices.
+I'm a **Cloud & DevOps Engineer** specializing in **Microsoft Azure**, **Terraform**, and **Infrastructure Automation**.
 
-Helping organizations move from manual operations to automated, scalable, and production-ready cloud environments.
+I help startups, agencies, and enterprises design, automate, secure, and optimize cloud infrastructure that is production-ready, scalable, and easy to manage.
 
----
-
-# 🌍 CLOUD COMMAND CENTER
-
-| Component                | Status         |
-| ------------------------ | -------------- |
-| ☁️ Azure Infrastructure  | 🟢 Operational |
-| 🏗 Terraform Automation  | 🟢 Active      |
-| 🚀 CI/CD Pipelines       | 🟢 Running     |
-| 🔒 Security & Governance | 🟢 Enforced    |
-| 📊 Monitoring & Alerting | 🟢 Healthy     |
+Whether you're building a new Azure environment, migrating existing workloads, implementing Infrastructure as Code, or modernizing deployment pipelines—I can help.
 
 ---
 
-# ⚡ WHAT I DO
+# ⭐ WHY WORK WITH ME
 
-<table>
-<tr>
+✔ Production-ready Azure Infrastructure
 
-<td align="center" width="33%">
+✔ Enterprise Azure Landing Zone Design
 
-### ☁️ Cloud Architecture
+✔ Infrastructure as Code (Terraform)
 
-Azure Infrastructure
+✔ GitHub Actions CI/CD Automation
 
-Landing Zones
+✔ Azure Governance & Security
 
-Networking
+✔ Azure Networking
 
-Security
+✔ Cloud Cost Optimization
 
-</td>
+✔ Monitoring & Observability
 
-<td align="center" width="33%">
+✔ Documentation & Knowledge Transfer
 
-### 🏗 Infrastructure as Code
-
-Terraform
-
-Reusable Modules
-
-Automation
-
-Environment Provisioning
-
-</td>
-
-<td align="center" width="33%">
-
-### 🚀 CI/CD Engineering
-
-GitHub Actions
-
-Pipeline Automation
-
-Release Management
-
-Deployments
-
-</td>
-
-</tr>
-</table>
+✔ Long-term Cloud Support
 
 ---
 
-# 🔄 CLOUD DELIVERY PIPELINE
+# 🚀 SERVICES
 
-<table>
-<tr>
+## ☁ Azure Cloud
 
-<td align="center" width="20%">
+- Azure Landing Zone
+- Subscription Design
+- Management Groups
+- Azure Networking
+- Virtual Networks
+- NSGs
+- Azure Bastion
+- Load Balancer
+- NAT Gateway
+- Storage Accounts
+- Key Vault
+- Azure Backup
+- Azure Monitor
 
-### 👨‍💻
+---
 
-### CODE
+## 🏗 Infrastructure as Code
 
-Developers
+- Terraform Development
+- Terraform Modules
+- Multi-Environment Infrastructure
+- Remote State Configuration
+- State Migration
+- Terraform Refactoring
+- Infrastructure Automation
+- Reusable Modules
 
-Repositories
+---
 
-Version Control
+## 🚀 DevOps & CI/CD
 
-</td>
+- GitHub Actions
+- Azure DevOps Pipelines
+- CI/CD Pipeline Design
+- Release Automation
+- Environment Automation
+- Deployment Strategies
+- Secret Management
+- OIDC Authentication
 
-<td align="center" width="20%">
+---
 
-### ⚙️
+## 🔒 Cloud Security
 
-### BUILD
+- Azure RBAC
+- Managed Identity
+- Azure Policy
+- Azure Key Vault
+- Private Endpoints
+- Network Security
+- Security Best Practices
+- Least Privilege Design
 
-GitHub Actions
+---
 
-Validation
+## 📊 Monitoring & Operations
 
+- Azure Monitor
+- Log Analytics
+- Alerts
+- Dashboards
+- Diagnostics
+- Infrastructure Health Monitoring
+- Performance Optimization
+
+---
+
+## 🌍 Cloud Migration
+
+- On-Premises to Azure
+- Infrastructure Modernization
+- Terraform Adoption
+- Environment Standardization
+- Landing Zone Migration
+
+---
+
+## 📖 Documentation
+
+- Architecture Diagrams
+- Deployment Guides
+- Runbooks
+- Infrastructure Documentation
+- Knowledge Transfer
+
+---
+
+## 🤝 Consulting
+
+- Cloud Architecture Review
+- Infrastructure Audit
+- Cost Optimization
+- Security Assessment
+- Technical Mentoring
+- DevOps Consulting
+
+---
+
+# ⚙ MY DELIVERY PROCESS
+
+```text
+Discovery
+    │
+    ▼
+Architecture Design
+    │
+    ▼
+Infrastructure as Code
+    │
+    ▼
+CI/CD Automation
+    │
+    ▼
 Testing
-
-</td>
-
-<td align="center" width="20%">
-
-### 🏗️
-
-### PROVISION
-
-Terraform
-
-Infrastructure
-
-Automation
-
-</td>
-
-<td align="center" width="20%">
-
-### ☁️
-
-### DEPLOY
-
-Azure
-
-Networking
-
-Security
-
-</td>
-
-<td align="center" width="20%">
-
-### 📊
-
-### OPERATE
-
+    │
+    ▼
+Production Deployment
+    │
+    ▼
 Monitoring
-
-Alerts
-
-Optimization
-
-</td>
-
-</tr>
-</table>
+    │
+    ▼
+Documentation
+    │
+    ▼
+Support
+````
 
 ---
 
-# 🛠 TECHNOLOGY ECOSYSTEM
+# 💼 WHAT I BUILD
 
-<table>
-<tr>
-
-<td align="center">
-<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg"><br>
-<b>Azure</b>
-</td>
-
-<td align="center">
-<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg"><br>
-<b>Terraform</b>
-</td>
-
-<td align="center">
-<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"><br>
-<b>GitHub</b>
-</td>
-
-<td align="center">
-<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"><br>
-<b>Docker</b>
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center">
-<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"><br>
-<b>Linux</b>
-</td>
-
-<td align="center">
-<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg"><br>
-<b>Bash</b>
-</td>
-
-<td align="center">
-<img width="55" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"><br>
-<b>Git</b>
-</td>
-
-<td align="center">
-<img width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"><br>
-<b>PowerShell</b>
-</td>
-
-</tr>
-
-</table>
+| Solution                | Description                             |
+| ----------------------- | --------------------------------------- |
+| Azure Landing Zones     | Enterprise-ready Azure platform         |
+| Infrastructure as Code  | Terraform Modules & Automation          |
+| CI/CD Pipelines         | GitHub Actions                          |
+| Secure Cloud Networking | VNets, NSGs, Bastion, Private Endpoints |
+| Cloud Governance        | RBAC, Azure Policy, Management Groups   |
+| Monitoring              | Azure Monitor & Log Analytics           |
+| Disaster Recovery       | Backup & Recovery Solutions             |
+| Cloud Optimization      | Performance & Cost Optimization         |
 
 ---
 
-# 📊 GITHUB ANALYTICS
+# 🛠 TECHNOLOGY STACK
+
+| Cloud     | IaC       | DevOps         | Containers            | OS         |
+| --------- | --------- | -------------- | --------------------- | ---------- |
+| Azure     | Terraform | GitHub Actions | Docker                | Linux      |
+| Azure CLI | Bicep     | Azure DevOps   | Kubernetes (Learning) | Bash       |
+| Entra ID  | ARM       | Git            | Docker Compose        | PowerShell |
+
+---
+
+# 📈 GITHUB ANALYTICS
 
 <div align="center">
 
@@ -247,42 +236,73 @@ Optimization
 
 ---
 
-# 💼 FREELANCE SERVICES
+# 📂 FEATURED PROJECTS
 
-☁️ Azure Infrastructure Setup
+🚀 Terraform Azure Foundation
 
-🏗 Terraform Automation
+🚀 Azure Landing Zone
 
 🚀 GitHub Actions CI/CD
 
-🔒 Cloud Governance & Security
+🚀 Azure Networking
 
-📊 Monitoring & Alerting
+🚀 Terraform Modules
 
-🌍 Azure Landing Zone Implementation
+🚀 Infrastructure Automation
 
 ---
 
-# ⚡ ENGINEERING PRINCIPLES
+# 🤝 ENGAGEMENT MODELS
 
-> Build Once. Automate Forever.
+✔ One-time Cloud Setup
 
-> Infrastructure Should Be Version Controlled.
+✔ Fixed Price Projects
 
-> Security Should Be Built In.
+✔ Long-term Consulting
 
-> Monitoring Should Be Automatic.
+✔ Monthly DevOps Support
 
-> Cloud Should Accelerate Business Growth.
+✔ Infrastructure Review
+
+✔ Cloud Modernization
+
+---
+
+# 🏆 ENGINEERING PRINCIPLES
+
+> Infrastructure as Code First
+
+> Automate Everything
+
+> Security by Default
+
+> Documentation Matters
+
+> Simplicity Over Complexity
+
+> Repeatability Creates Reliability
+
+---
+
+# 📬 LET'S CONNECT
+
+📧 Email: **[sanjeev.aiops@gmail.com](mailto:sanjeev.aiops@gmail.com)**
+
+💼 LinkedIn: **linkedin.com/in/sanjiivsingh**
+
+🌐 Website: **[www.oneps.in](http://www.oneps.in)**
+
+🐙 GitHub: **github.com/sanjiivsingh**
 
 ---
 
 <div align="center">
 
-## 🚀 BUILD • AUTOMATE • DEPLOY • SCALE
+## 🚀 DESIGN • AUTOMATE • SECURE • SCALE
 
-Cloud Infrastructure • Platform Engineering • DevOps Automation
+Helping businesses build modern Azure cloud platforms with Infrastructure as Code and DevOps Automation.
 
-<img src="https://komarev.com/ghpvc/?username=sanjiivsingh&label=PROFILE+VIEWS&style=for-the-badge&color=8B0000" />
+<img src="https://komarev.com/ghpvc/?username=sanjiivsingh&label=PROFILE+VIEWS&style=for-the-badge&color=0078D4"/>
 
 </div>
+```
