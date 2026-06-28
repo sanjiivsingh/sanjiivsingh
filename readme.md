@@ -853,7 +853,7 @@ Azure, Terraform, GitHub Actions, and DevOps coaching.
 
 # 🤝 Collaboration Process
 
-```text
+
 Initial Discussion
         │
         ▼
