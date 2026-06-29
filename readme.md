@@ -142,5 +142,5 @@ I'm available for freelance Azure, Terraform, and DevOps consulting.
 - 🐙 GitHub: github.com/sanjiivsingh
 
 <p align="center">
-<img src="./assets/footer.svg" width="100%">
+<img src="./assets/footer.png" width="100%">
 </p>
