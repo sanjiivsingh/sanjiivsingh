@@ -162,29 +162,11 @@ Every successful cloud project follows a structured engineering process. My deli
 
 <div align="center">
 
-### Cloud Platform
+<img src="https://skillicons.dev/icons?i=azure,terraform,github,git,docker,linux,bash,powershell,vscode" />
 
-<img src="https://skillicons.dev/icons?i=azure" />
+<br><br>
 
-### Infrastructure as Code
-
-<img src="https://skillicons.dev/icons?i=terraform" />
-
-### DevOps & Automation
-
-<img src="https://skillicons.dev/icons?i=github,githubactions,git" />
-
-### Containers
-
-<img src="https://skillicons.dev/icons?i=docker" />
-
-### Operating Systems
-
-<img src="https://skillicons.dev/icons?i=linux" />
-
-### Scripting & Configuration
-
-<img src="https://skillicons.dev/icons?i=bash,powershell,yaml,json,vscode" />
+**Microsoft Azure • Terraform • GitHub Actions • Docker • Linux • Bash • PowerShell • VS Code**
 
 </div>
 
