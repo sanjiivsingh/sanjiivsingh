@@ -36,7 +36,7 @@ My focus is designing cloud environments that are easy to operate, governed by I
 # Azure Platform Engineering
 
 <p align="center">
-<img src="./assets/azure-platform.svg" width="100%">
+<img src="./assets/azure-platform.png" width="100%">
 </p>
 
 I design enterprise-ready Azure environments including Landing Zones, Management Groups, Subscription strategy, Networking, Identity, Security, and Governance.
@@ -46,7 +46,7 @@ I design enterprise-ready Azure environments including Landing Zones, Management
 # Terraform Infrastructure as Code
 
 <p align="center">
-<img src="./assets/terraform.svg" width="100%">
+<img src="./assets/terraform.png" width="100%">
 </p>
 
 Reusable Terraform modules, remote state management, multi-environment deployments, and production-ready Infrastructure as Code.
@@ -56,7 +56,7 @@ Reusable Terraform modules, remote state management, multi-environment deploymen
 # DevOps & CI/CD
 
 <p align="center">
-<img src="./assets/devops.svg" width="100%">
+<img src="./assets/devops.png" width="100%">
 </p>
 
 Automated CI/CD pipelines using GitHub Actions, OIDC authentication, validation, planning, deployment automation and release workflows.
@@ -66,7 +66,7 @@ Automated CI/CD pipelines using GitHub Actions, OIDC authentication, validation,
 # Cloud Security
 
 <p align="center">
-<img src="./assets/security.svg" width="100%">
+<img src="./assets/security.png" width="100%">
 </p>
 
 Security-first Azure architectures with RBAC, Managed Identities, Key Vault, Azure Policy, Private Endpoints and Zero Trust principles.
@@ -76,7 +76,7 @@ Security-first Azure architectures with RBAC, Managed Identities, Key Vault, Azu
 # Monitoring & Operations
 
 <p align="center">
-<img src="./assets/monitoring.svg" width="100%">
+<img src="./assets/monitoring.png" width="100%">
 </p>
 
 Azure Monitor, Log Analytics, Alerts, Dashboards, Diagnostics, Cost Optimization and Operational Excellence.
@@ -86,7 +86,7 @@ Azure Monitor, Log Analytics, Alerts, Dashboards, Diagnostics, Cost Optimization
 # Cloud Delivery Workflow
 
 <p align="center">
-<img src="./assets/workflow.svg" width="100%">
+<img src="./assets/workflow.png" width="100%">
 </p>
 
 From requirements gathering and architecture through Infrastructure as Code, CI/CD automation, Azure deployment, monitoring and continuous improvement.
