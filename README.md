@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="./assets/banner.png" alt="Sanjeev Singh - Azure Cloud Architect & DevSecOps Engineer" width="100%">
-
-<br><br>
+<!-- Hero Banner (Optimized 850px Width, Modern Sans-Serif Typography) -->
+<p align="center">
+  <img src="./assets/banner.png" alt="Sanjeev Singh - Cloud & DevSecOps Platform Engineer" width="850" style="max-width: 100%; height: auto; border-radius: 10px;">
+</p>
 
 <!-- Animated Dynamic Typing Banner -->
 <a href="https://linkedin.com/in/sanjiivsingh">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0078D4&background=0d111700&center=true&vCenter=true&width=820&height=50&lines=Cloud+%26+DevSecOps+Engineer;Azure+Solutions+Architect+%7C+Terraform+Specialist;Building+Enterprise+Landing+Zones+%26+Secure+CI%2FCD;Zero-Trust+Security+%7C+Compliance+%26+RBAC+Governance;Hardened+Infrastructure+for+High-Scale+Trading+Platforms;Kubernetes+(AKS)+%7C+Docker+%7C+DevSecOps+Guardrails" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0078D4&background=0d111700&center=true&vCenter=true&width=850&height=45&lines=Cloud+%26+DevSecOps+Platform+Engineer;Architecting+Resilient+Cloud+Infrastructure;Provisioning+Secure%2C+Governed+%26+Cost-Optimized+Systems;Enterprise+Terraform+IaC+%7C+Reusable+Child+Modules;Zero-Trust+Security+%7C+Shift-Left+DevSecOps+Guardrails;Kubernetes+(AKS)+%7C+Docker+%7C+Automated+CI%2FCD" alt="Typing Animation" />
 </a>
 
 <br>
@@ -23,7 +23,7 @@
   <a href="https://sanjeevsingh.oneps.in" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="mailto:theinvinciblesanjeev@gmail.com">
+  <a href="mailto:sanjeevsinghred@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://twitter.com/sanjiiv_singh" target="_blank">
@@ -45,7 +45,8 @@
 
 <!-- Fast Navigation Menu -->
 <p align="center">
-  <a href="#-executive-summary"><b>Executive Summary</b></a> •
+  <a href="#-executive-video-intro--tech-ambient-soundscape"><b>Video &amp; Soundscape</b></a> •
+  <a href="#-cloud-infrastructure--devsecops-architecture"><b>Executive Profile</b></a> •
   <a href="#-devsecops-pipeline--continuous-delivery-architecture"><b>DevSecOps Pipeline</b></a> •
   <a href="#-featured-engineering-projects"><b>Featured Projects</b></a> •
   <a href="#-core-technical-stack--skills-matrix"><b>Skills Matrix</b></a> •
@@ -58,27 +59,54 @@
 
 ---
 
-# 🚀 Executive Summary
+# 🎙️ Executive Video Intro & Tech Ambient Soundscape
 
-I am a **Cloud & DevSecOps Engineer** with **10+ years of professional experience across IT, cloud infrastructure, and banking operations**, including **5+ years specializing in Microsoft Azure, Terraform, CI/CD, and infrastructure automation**. 
+<div align="center">
 
-My core focus is designing, automating, and maintaining **secure-by-default, scalable, and audit-ready cloud platforms** that accelerate software delivery while eliminating manual toil and configuration drift.
+<p align="center">
+  <a href="https://sanjeevsingh.oneps.in">
+    <img src="./assets/media-player.svg" alt="Executive Video Intro & Continuous Tech Ambient Sound" width="850" style="max-width: 100%; height: auto; border-radius: 10px;" />
+  </a>
+</p>
 
-### 💼 What Sets Me Apart:
-- **High-Concurrency Production Experience:** Provided Azure infrastructure automation and DevOps support for a high-volume **US-based futures proprietary trading platform** serving thousands of concurrent users, handling Terraform modularization, zero-downtime CI/CD, and cloud operations.
-- **Enterprise DevSecOps Guardrails:** Shift-left security practitioner embedding automated quality gates (**TFLint**, **Checkov**, **tfsec**, **Trivy**, **Gitleaks**, and **SonarQube**) directly into GitHub Actions and Azure DevOps pipelines.
-- **Banking Governance & Risk Compliance Heritage:** 4+ years as **Assistant Manager – Banking Operations / Risk & Compliance at State Bank of India (SBI)**. This unique foundation provides deep, practical expertise in **operational risk controls**, **least-privilege RBAC**, **procedural compliance**, and **access governance**—ensuring mission-critical infrastructure satisfies strict regulatory standards.
+<p align="center">
+  <a href="https://sanjeevsingh.oneps.in" target="_blank">
+    <img src="https://img.shields.io/badge/▶_Watch_Video-Architecture_Walkthrough_(2:15)-0078D4?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Video" />
+  </a>
+  <a href="https://open.spotify.com/playlist/37i9dQZF1DXdLEN7aqioXM" target="_blank">
+    <img src="https://img.shields.io/badge/🎧_Play_Ambient_Tech-Spotify_Focus_Beats-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Play Spotify" />
+  </a>
+  <a href="https://soundcloud.com/search?q=cyberpunk%20synthwave%20ambient%20focus" target="_blank">
+    <img src="https://img.shields.io/badge/🔊_Play_Synthwave-SoundCloud_Stream-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" alt="Play SoundCloud" />
+  </a>
+</p>
+
+</div>
+
+> [!NOTE]
+> **Interactive Multimedia Experience:** GitHub Markdown sanitization prevents unprompted background audio autoplay. Click the interactive media player or quick-launch badges above to launch the architecture walkthrough and stream continuous low-latency ambient tech focus music while exploring the repositories below.
+
+---
+
+# ⚡ Cloud Infrastructure & DevSecOps Architecture
+
+I am a **Cloud & DevSecOps Platform Engineer** with **10+ years of professional engineering and banking governance experience**, including **5+ years architecting Microsoft Azure platforms, modular Terraform IaC, and automated CI/CD security guardrails**.
+
+### 💼 Engineering Impact at a Glance:
+- **High-Concurrency Production Systems:** Automated and operated Azure infrastructure for a US-based futures proprietary trading platform supporting high concurrent load, achieving zero-drift modular IaC and rapid deployment cycles.
+- **Enterprise DevSecOps Guardrails:** Shift-left security specialist enforcing automated quality gates (**TFLint**, **Checkov**, **tfsec**, **Trivy**, and **Gitleaks**) directly inside GitHub Actions and Azure DevOps pipelines.
+- **Banking Governance & Risk Rigor:** 4+ years as **Assistant Manager – Banking Operations / Risk & Compliance at State Bank of India (SBI)**, translating institutional risk controls, least-privilege RBAC, and audit readiness directly into cloud infrastructure.
 
 ### 🎯 Business Value Delivered
 
-| Solution Domain | Architectural Deliverable | Measurable Business Impact |
+| Domain | Architectural Deliverable | Measurable Impact |
 | :--- | :--- | :--- |
-| **☁️ Azure Landing Zones** | Hub-and-spoke networks, subscription governance, Azure Policies, Entra ID | Standardized, enterprise-ready foundations built in hours rather than months |
-| **🏗️ Modular Terraform IaC** | Versioned modules, Azure Blob state locking, dynamic blocks & validation | 100% reproducible environments across Dev, UAT, and Production with zero drift |
-| **🛡️ DevSecOps & Shift-Left** | Automated SAST (Checkov/tfsec), secret detection (Gitleaks), Trivy container audit | Security vulnerabilities flagged and blocked *before* pull requests merge |
-| **🚀 Automated CI/CD** | GitHub Actions & Azure DevOps pipelines with OIDC passwordless authentication | Safe, repeatable, automated releases with branch protection and manual approvals |
-| **☸️ Container Platforms** | AKS clusters, ACR registries, Docker Compose networking & microservices | Resilient, containerized microservice architectures with private networking |
-| **📊 Operational Excellence** | Azure Monitor, Log Analytics workspaces, diagnostic settings, automated alerts | Real-time visibility, proactive incident reduction, and cloud cost optimization |
+| **☁️ Azure Landing Zones** | Hub-and-spoke topology, subscription governance, Azure Policies, Entra ID | Standardized, enterprise foundations provisioned in hours |
+| **🏗️ Modular Terraform IaC** | Decoupled child modules, Azure Blob state locking, dynamic blocks | 100% reproducible environments across Dev, UAT, and Prod |
+| **🛡️ Shift-Left DevSecOps** | Automated SAST (Checkov/tfsec), secret scanning (Gitleaks), Trivy | Critical vulnerabilities blocked *before* PR merge |
+| **🚀 Automated CI/CD** | GitHub Actions & Azure DevOps with passwordless Azure OIDC | Zero-downtime releases with automated drift detection |
+| **☸️ Container Platforms** | AKS clusters, ACR registries, Docker bridge networking & microservices | Resilient, containerized microservices with private ingress |
+| **📊 Observability** | Azure Monitor, Log Analytics, diagnostic metrics, proactive alerts | Proactive issue resolution and continuous cloud cost optimization |
 
 ---
 
@@ -136,17 +164,16 @@ Direct links to open-source architectures, automation frameworks, and hands-on p
 <tr>
 <td width="50%" valign="top">
 
-### 🏛️ [Terraform Azure Foundation](https://github.com/sanjiivsingh/terraform-azure-foundation)
-**Enterprise Multi-Tier Infrastructure as Code Architecture**
-- Designed a modular, multi-tier Terraform repository provisioning standardized Azure infrastructure components with environment-specific variable hierarchies (`dev`, `prod`).
-- Reusable modules for Virtual Networks, Subnets, Key Vault with zero-trust ACLs, and Storage Accounts.
-- Built GitHub Actions automation executing code formatting, syntax validation, security analysis (**Checkov**), and linting (**TFLint**) prior to pull request merges.
-- Integrated centralized remote state storage with automated state locking using **Azure Blob Storage**.
+### 🏛️ [Terraform Azure Resource Modules](https://github.com/sanjiivsingh/terraform-azure-resource-modules)
+**Reusable Multi-Tier Azure IaC Child-Modules Library**
+- Engineered an enterprise library of 11+ independent, production-ready child modules: Resource Group, Virtual Network, Subnet, Network Security Group, NSG Association, Public IP, Network Interface, Linux VM, Bastion Host, Key Vault, and Application Gateway.
+- Architected for multi-environment decoupling (`environments/dev`), zero hardcoded attributes, dynamic blocks for conditional resources, and implicit dependency management.
+- Integrated automated GitHub Actions workflow (`CI.yaml`) validating formatting, syntax, and plan generation across modules.
 
 ```text
-Stack: Terraform · Azure VNets · Key Vault · Checkov · TFLint · GitHub Actions
+Stack: Terraform · AzureRM · Child Modules · Key Vault · App Gateway · CI/CD
 ```
-👉 **[View Repository →](https://github.com/sanjiivsingh/terraform-azure-foundation)**
+👉 **[View Repository →](https://github.com/sanjiivsingh/terraform-azure-resource-modules)**
 
 </td>
 <td width="50%" valign="top">
@@ -169,7 +196,7 @@ Stack: Azure AKS · Docker · ACR · Trivy · Checkov · Terraform · GitHub Act
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ [PropEdge Trading Platform Lab](https://github.com/sanjiivsingh/PropEdge-Docker-Lab)
+### ⚡ [PropEdge Trading Platform Lab](https://github.com/sanjiivsingh/propedge-docker-lab)
 **High-Concurrency Containerized Trading System Deployment**
 - Implemented deployment and infrastructure for a containerized multi-tier proprietary trading platform.
 - Configured a multi-container stack with **Docker Compose**, utilizing segregated bridge networks between the **React** frontend, **FastAPI** backend, and **PostgreSQL** database.
@@ -179,9 +206,27 @@ Stack: Azure AKS · Docker · ACR · Trivy · Checkov · Terraform · GitHub Act
 ```text
 Stack: Azure VMs · Docker Compose · FastAPI · PostgreSQL · React · Cloudflare
 ```
-👉 **[View Repository →](https://github.com/sanjiivsingh/PropEdge-Docker-Lab)**
+👉 **[View Repository →](https://github.com/sanjiivsingh/propedge-docker-lab)**
 
 </td>
+<td width="50%" valign="top">
+
+### 🏛️ [Terraform Azure Foundation](https://github.com/sanjiivsingh/terraform-azure-foundation)
+**Enterprise Multi-Tier Infrastructure as Code Architecture**
+- Designed a modular, multi-tier Terraform repository provisioning standardized Azure infrastructure components with environment-specific variable hierarchies (`dev`, `prod`).
+- Reusable modules for Virtual Networks, Subnets, Key Vault with zero-trust ACLs, and Storage Accounts.
+- Built GitHub Actions automation executing code formatting, syntax validation, security analysis (**Checkov**), and linting (**TFLint**) prior to pull request merges.
+- Integrated centralized remote state storage with automated state locking using **Azure Blob Storage**.
+
+```text
+Stack: Terraform · Azure VNets · Key Vault · Checkov · TFLint · GitHub Actions
+```
+👉 **[View Repository →](https://github.com/sanjiivsingh/terraform-azure-foundation)**
+
+</td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🛠️ [CREP — Code Repository Provisioner](https://github.com/sanjiivsingh/CREP)
@@ -196,9 +241,6 @@ Stack: Bash · GitHub CLI · Git · Linux Shell · Automation
 👉 **[View Repository →](https://github.com/sanjiivsingh/CREP)**
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 🔄 [End-to-End Terraform CI/CD](https://github.com/sanjiivsingh/workflow-basic-1)
@@ -211,19 +253,6 @@ Stack: Bash · GitHub CLI · Git · Linux Shell · Automation
 Stack: GitHub Actions · Terraform · Azure OIDC · Checkov · TFLint
 ```
 👉 **[View Repository →](https://github.com/sanjiivsingh/workflow-basic-1)**
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [Azure Modular VM & Network Lab](https://github.com/sanjiivsingh/azure-terraform-modular-vm-lab)
-**Hub-and-Spoke Topology with VNet Peering & Security**
-- Modular Terraform configuration deploying enterprise networking topologies with VNets, subnets, Network Security Groups, and bidirectional peering.
-- Implemented Azure Bastion hosts for secure management and private IP interconnectivity across multi-tier workloads.
-
-```text
-Stack: Terraform · Azure VNets · NSG · VNet Peering · Bastion
-```
-👉 **[View Repository →](https://github.com/sanjiivsingh/azure-terraform-modular-vm-lab)**
 
 </td>
 </tr>
@@ -414,13 +443,15 @@ Whether you are building out **Enterprise Azure Landing Zones**, adopting **Terr
 
 <div align="center">
 
-<img src="./assets/footer.png" alt="Let's Build Something Extraordinary" width="100%">
+<p align="center">
+  <img src="./assets/footer.png" alt="Let's Build Something Extraordinary" width="850" style="max-width: 100%; height: auto; border-radius: 10px;">
+</p>
 
-<br><br>
+<br>
 
 <p align="center">
-  <a href="mailto:theinvinciblesanjeev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-theinvinciblesanjeev@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:sanjeevsinghred@gmail.com">
+    <img src="https://img.shields.io/badge/Email-sanjeevsinghred@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://linkedin.com/in/sanjiivsingh" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-sanjiivsingh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
