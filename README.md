@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- Hero Banner (Optimized 850px Width, Modern Sans-Serif Typography) -->
+<!-- Hero Banner (Compact 720px Width, Calm Soft Luxury Minimalist Aesthetic) -->
 <p align="center">
-  <img src="./assets/banner.png" alt="Sanjeev Singh - Cloud & DevSecOps Platform Engineer" width="850" style="max-width: 100%; height: auto; border-radius: 10px;">
+  <img src="./assets/banner.png" alt="Sanjeev Singh - Cloud & DevSecOps Platform Engineer" width="720" style="max-width: 100%; height: auto; border-radius: 12px;">
 </p>
 
 <!-- Animated Dynamic Typing Banner -->
 <a href="https://linkedin.com/in/sanjiivsingh">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0078D4&background=0d111700&center=true&vCenter=true&width=850&height=45&lines=Cloud+%26+DevSecOps+Platform+Engineer;Architecting+Resilient+Cloud+Infrastructure;Provisioning+Secure%2C+Governed+%26+Cost-Optimized+Systems;Enterprise+Terraform+IaC+%7C+Reusable+Child+Modules;Zero-Trust+Security+%7C+Shift-Left+DevSecOps+Guardrails;Kubernetes+(AKS)+%7C+Docker+%7C+Automated+CI%2FCD" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=38BDF8&background=0d111700&center=true&vCenter=true&width=720&height=42&lines=Cloud+%26+DevSecOps+Platform+Engineer;Architecting+Resilient+Cloud+Infrastructure;Provisioning+Secure%2C+Governed+%26+Cost-Optimized+Systems;Enterprise+Terraform+IaC+%7C+Reusable+Child+Modules;Zero-Trust+Security+%7C+Shift-Left+DevSecOps+Guardrails;Kubernetes+(AKS)+%7C+Docker+%7C+Automated+CI%2FCD" alt="Typing Animation" />
 </a>
 
 <br>
@@ -45,8 +45,7 @@
 
 <!-- Fast Navigation Menu -->
 <p align="center">
-  <a href="#-executive-video-intro--tech-ambient-soundscape"><b>Video &amp; Soundscape</b></a> •
-  <a href="#-cloud-infrastructure--devsecops-architecture"><b>Executive Profile</b></a> •
+  <a href="#-enterprise-engineering-philosophy--production-track-record"><b>Engineering Philosophy</b></a> •
   <a href="#-devsecops-pipeline--continuous-delivery-architecture"><b>DevSecOps Pipeline</b></a> •
   <a href="#-featured-engineering-projects"><b>Featured Projects</b></a> •
   <a href="#-core-technical-stack--skills-matrix"><b>Skills Matrix</b></a> •
@@ -59,45 +58,16 @@
 
 ---
 
-# 🎙️ Executive Video Intro & Tech Ambient Soundscape
-
-<div align="center">
-
-<p align="center">
-  <a href="https://sanjeevsingh.oneps.in">
-    <img src="./assets/media-player.svg" alt="Executive Video Intro & Continuous Tech Ambient Sound" width="850" style="max-width: 100%; height: auto; border-radius: 10px;" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://sanjeevsingh.oneps.in" target="_blank">
-    <img src="https://img.shields.io/badge/▶_Watch_Video-Architecture_Walkthrough_(2:15)-0078D4?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Video" />
-  </a>
-  <a href="https://open.spotify.com/playlist/37i9dQZF1DXdLEN7aqioXM" target="_blank">
-    <img src="https://img.shields.io/badge/🎧_Play_Ambient_Tech-Spotify_Focus_Beats-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Play Spotify" />
-  </a>
-  <a href="https://soundcloud.com/search?q=cyberpunk%20synthwave%20ambient%20focus" target="_blank">
-    <img src="https://img.shields.io/badge/🔊_Play_Synthwave-SoundCloud_Stream-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" alt="Play SoundCloud" />
-  </a>
-</p>
-
-</div>
-
-> [!NOTE]
-> **Interactive Multimedia Experience:** GitHub Markdown sanitization prevents unprompted background audio autoplay. Click the interactive media player or quick-launch badges above to launch the architecture walkthrough and stream continuous low-latency ambient tech focus music while exploring the repositories below.
-
----
-
-# ⚡ Cloud Infrastructure & DevSecOps Architecture
+# 🏛️ Enterprise Engineering Philosophy & Production Track Record
 
 I am a **Cloud & DevSecOps Platform Engineer** with **10+ years of professional engineering and banking governance experience**, including **5+ years architecting Microsoft Azure platforms, modular Terraform IaC, and automated CI/CD security guardrails**.
 
-### 💼 Engineering Impact at a Glance:
-- **High-Concurrency Production Systems:** Automated and operated Azure infrastructure for a US-based futures proprietary trading platform supporting high concurrent load, achieving zero-drift modular IaC and rapid deployment cycles.
-- **Enterprise DevSecOps Guardrails:** Shift-left security specialist enforcing automated quality gates (**TFLint**, **Checkov**, **tfsec**, **Trivy**, and **Gitleaks**) directly inside GitHub Actions and Azure DevOps pipelines.
-- **Banking Governance & Risk Rigor:** 4+ years as **Assistant Manager – Banking Operations / Risk & Compliance at State Bank of India (SBI)**, translating institutional risk controls, least-privilege RBAC, and audit readiness directly into cloud infrastructure.
+### 💼 Three-Pillar Engineering Legacy & Production Track Record:
+- **High-Concurrency Trading Systems at Scale:** Automated and operated Azure infrastructure for a US-based futures proprietary trading platform supporting high concurrent load, achieving zero-drift modular IaC, automated multi-stage rollouts, and sub-minute recovery.
+- **Enterprise DevSecOps & Shift-Left Guardrails:** Automated security specialist enforcing rigorous quality gates (**TFLint**, **Checkov**, **tfsec**, **Trivy**, and **Gitleaks**) directly inside GitHub Actions and Azure DevOps pipelines to preemptively eliminate vulnerabilities before code merge.
+- **Institutional Risk & Banking Governance Heritage:** 4+ years as **Assistant Manager – Banking Operations / Risk & Compliance at State Bank of India (SBI)**, translating institutional risk controls, least-privilege RBAC, and audit readiness directly into cloud infrastructure.
 
-### 🎯 Business Value Delivered
+### 🎯 Measurable Business Value Delivered
 
 | Domain | Architectural Deliverable | Measurable Impact |
 | :--- | :--- | :--- |
@@ -444,7 +414,7 @@ Whether you are building out **Enterprise Azure Landing Zones**, adopting **Terr
 <div align="center">
 
 <p align="center">
-  <img src="./assets/footer.png" alt="Let's Build Something Extraordinary" width="850" style="max-width: 100%; height: auto; border-radius: 10px;">
+  <img src="./assets/footer.png" alt="Let's Build Together" width="720" style="max-width: 100%; height: auto; border-radius: 12px;">
 </p>
 
 <br>
