@@ -1,8 +1,8 @@
 <div align="center">
 
-<!-- Hero Banner (Compact 720px Width, Calm Soft Luxury Minimalist Aesthetic) -->
+<!-- Hero Banner (Infographic Style Matching Architecture Series) -->
 <p align="center">
-  <img src="./assets/banner.png" alt="Sanjeev Singh - Cloud & DevSecOps Platform Engineer" width="720" style="max-width: 100%; height: auto; border-radius: 12px;">
+  <img src="./assets/banner.png" alt="Sanjeev Singh - Cloud & DevSecOps Platform Engineer" width="100%">
 </p>
 
 <!-- Animated Dynamic Typing Banner -->
@@ -414,7 +414,7 @@ Whether you are building out **Enterprise Azure Landing Zones**, adopting **Terr
 <div align="center">
 
 <p align="center">
-  <img src="./assets/footer.png" alt="Let's Build Together" width="720" style="max-width: 100%; height: auto; border-radius: 12px;">
+  <img src="./assets/footer.png" alt="Let's Collaborate - High-Scale Cloud Platform Engineering" width="100%">
 </p>
 
 <br>
