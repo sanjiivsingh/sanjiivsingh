@@ -45,7 +45,7 @@
 
 <!-- Fast Navigation Menu -->
 <p align="center">
-  <a href="#-executive-video-walkthrough--interactive-architecture"><b>Video Walkthrough</b></a> •
+  <a href="#-platform-architecture-reel--interactive-overview"><b>Architecture Reel</b></a> •
   <a href="#-enterprise-engineering-philosophy--production-track-record"><b>Engineering Philosophy</b></a> •
   <a href="#-devsecops-pipeline--continuous-delivery-architecture"><b>DevSecOps Pipeline</b></a> •
   <a href="#-featured-engineering-projects"><b>Featured Projects</b></a> •
@@ -59,22 +59,22 @@
 
 ---
 
-# 🎬 Executive Video Walkthrough & Interactive Architecture
+# 🎬 Platform Architecture Reel & Interactive Overview
 
 <div align="center">
 
 <p align="center">
   <a href="https://sanjeevsingh.oneps.in" target="_blank">
-    <img src="./assets/intro_preview.webp" alt="High-Tech Executive Architecture Walkthrough" width="100%" style="border-radius: 12px; border: 1px solid rgba(56, 189, 248, 0.3);">
+    <img src="./assets/intro_preview.webp" alt="Platform Architecture Reel & Interactive Overview" width="100%" style="border-radius: 12px; border: 1px solid rgba(56, 189, 248, 0.3);">
   </a>
 </p>
 
 <p align="center">
   <a href="https://sanjeevsingh.oneps.in" target="_blank">
-    <img src="https://img.shields.io/badge/▶_Interactive_Live_Player-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Player" />
+    <img src="https://img.shields.io/badge/▶_Interactive_Player-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Player" />
   </a>
   <a href="./assets/intro.mp4" target="_blank">
-    <img src="https://img.shields.io/badge/🎬_Stream_Direct_Video-1080p_HD_(813KB)-10B981?style=for-the-badge&logo=quicktime&logoColor=white" alt="Stream MP4" />
+    <img src="https://img.shields.io/badge/🎬_Stream_Architecture_Reel-1080p_Full_HD-10B981?style=for-the-badge&logo=quicktime&logoColor=white" alt="Stream MP4" />
   </a>
   <a href="https://github.com/sanjiivsingh" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Repository_Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
