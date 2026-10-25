@@ -45,6 +45,7 @@
 
 <!-- Fast Navigation Menu -->
 <p align="center">
+  <a href="#-executive-video-walkthrough--interactive-architecture"><b>Video Walkthrough</b></a> •
   <a href="#-enterprise-engineering-philosophy--production-track-record"><b>Engineering Philosophy</b></a> •
   <a href="#-devsecops-pipeline--continuous-delivery-architecture"><b>DevSecOps Pipeline</b></a> •
   <a href="#-featured-engineering-projects"><b>Featured Projects</b></a> •
@@ -52,6 +53,32 @@
   <a href="#-professional-experience--banking-governance-foundation"><b>Experience &amp; Governance</b></a> •
   <a href="#-engineering-velocity--analytics"><b>Analytics &amp; Snake</b></a> •
   <a href="#-lets-collaborate"><b>Contact</b></a>
+</p>
+
+</div>
+
+---
+
+# 🎬 Executive Video Walkthrough & Interactive Architecture
+
+<div align="center">
+
+<p align="center">
+  <a href="https://sanjeevsingh.oneps.in" target="_blank">
+    <img src="./assets/intro_preview.webp" alt="High-Tech Executive Architecture Walkthrough" width="100%" style="border-radius: 12px; border: 1px solid rgba(56, 189, 248, 0.3);">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://sanjeevsingh.oneps.in" target="_blank">
+    <img src="https://img.shields.io/badge/▶_Interactive_Live_Player-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Player" />
+  </a>
+  <a href="./assets/intro.mp4" target="_blank">
+    <img src="https://img.shields.io/badge/🎬_Stream_Direct_Video-1080p_HD_(813KB)-10B981?style=for-the-badge&logo=quicktime&logoColor=white" alt="Stream MP4" />
+  </a>
+  <a href="https://github.com/sanjiivsingh" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repository_Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
 
 </div>
