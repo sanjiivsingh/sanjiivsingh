@@ -138,10 +138,10 @@ Direct links to open-source architectures, automation frameworks, and hands-on p
 
 ### 🏛️ [Terraform Azure Foundation](https://github.com/sanjiivsingh/terraform-azure-foundation)
 **Enterprise Multi-Tier Infrastructure as Code Architecture**
-- Designed a modular, multi-tier Terraform repository provisioning standardized Azure infrastructure components with environment-specific variable hierarchies (`dev`, `uat`, `prod`).
-- Integrated centralized remote state storage with automated state locking using **Azure Blob Storage**.
+- Designed a modular, multi-tier Terraform repository provisioning standardized Azure infrastructure components with environment-specific variable hierarchies (`dev`, `prod`).
+- Reusable modules for Virtual Networks, Subnets, Key Vault with zero-trust ACLs, and Storage Accounts.
 - Built GitHub Actions automation executing code formatting, syntax validation, security analysis (**Checkov**), and linting (**TFLint**) prior to pull request merges.
-- Applied infrastructure security controls: virtual network isolation, granular NSG rules, RBAC assignments, and **Azure Key Vault** secret isolation.
+- Integrated centralized remote state storage with automated state locking using **Azure Blob Storage**.
 
 ```text
 Stack: Terraform · Azure VNets · Key Vault · Checkov · TFLint · GitHub Actions
@@ -149,6 +149,24 @@ Stack: Terraform · Azure VNets · Key Vault · Checkov · TFLint · GitHub Acti
 👉 **[View Repository →](https://github.com/sanjiivsingh/terraform-azure-foundation)**
 
 </td>
+<td width="50%" valign="top">
+
+### 🛡️ [Azure AKS DevSecOps Pipeline](https://github.com/sanjiivsingh/azure-aks-devsecops-pipeline)
+**Production CI/CD: Terraform · Trivy · Docker · ACR · Kubernetes (AKS)**
+- Built an end-to-end continuous integration and delivery pipeline with automated Pytest unit testing, linting, and quality gates.
+- Embedded static application security analysis (**Checkov** & **tfsec**) alongside **Trivy** container image vulnerability scanning for zero-day protection.
+- Automated Docker container builds with non-root security context and image publishing to **Azure Container Registry (ACR)**.
+- Continuous delivery to **Azure Kubernetes Service (AKS)** with rolling updates, HPA auto-scaling, and Zero-Trust NetworkPolicies.
+
+```text
+Stack: Azure AKS · Docker · ACR · Trivy · Checkov · Terraform · GitHub Actions
+```
+👉 **[View Repository →](https://github.com/sanjiivsingh/azure-aks-devsecops-pipeline)**
+
+</td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### ⚡ [PropEdge Trading Platform Lab](https://github.com/sanjiivsingh/PropEdge-Docker-Lab)
@@ -164,9 +182,6 @@ Stack: Azure VMs · Docker Compose · FastAPI · PostgreSQL · React · Cloudfla
 👉 **[View Repository →](https://github.com/sanjiivsingh/PropEdge-Docker-Lab)**
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 🛠️ [CREP — Code Repository Provisioner](https://github.com/sanjiivsingh/CREP)
@@ -181,6 +196,9 @@ Stack: Bash · GitHub CLI · Git · Linux Shell · Automation
 👉 **[View Repository →](https://github.com/sanjiivsingh/CREP)**
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🔄 [End-to-End Terraform CI/CD](https://github.com/sanjiivsingh/workflow-basic-1)
@@ -195,9 +213,6 @@ Stack: GitHub Actions · Terraform · Azure OIDC · Checkov · TFLint
 👉 **[View Repository →](https://github.com/sanjiivsingh/workflow-basic-1)**
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 🌐 [Azure Modular VM & Network Lab](https://github.com/sanjiivsingh/azure-terraform-modular-vm-lab)
@@ -209,19 +224,6 @@ Stack: GitHub Actions · Terraform · Azure OIDC · Checkov · TFLint
 Stack: Terraform · Azure VNets · NSG · VNet Peering · Bastion
 ```
 👉 **[View Repository →](https://github.com/sanjiivsingh/azure-terraform-modular-vm-lab)**
-
-</td>
-<td width="50%" valign="top">
-
-### 🐳 [Docker & Container Engineering Lab](https://github.com/sanjiivsingh/docker-learning)
-**Production Containerization & Security Scanning**
-- Comprehensive container engineering lab covering Docker fundamentals, multi-stage builds, non-root user execution, networking, and volume persistence.
-- Embedded container vulnerability scanning with **Trivy** to build secure, hardened container images ready for production Kubernetes clusters.
-
-```text
-Stack: Docker · Docker Compose · Trivy · Linux · Container Security
-```
-👉 **[View Repository →](https://github.com/sanjiivsingh/docker-learning)**
 
 </td>
 </tr>
