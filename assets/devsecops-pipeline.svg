@@ -2,93 +2,81 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070c18" />
-      <stop offset="50%" stop-color="#0b1528" />
-      <stop offset="100%" stop-color="#070c18" />
+      <stop offset="0%" stop-color="#080e1a" />
+      <stop offset="50%" stop-color="#0c172b" />
+      <stop offset="100%" stop-color="#080e1a" />
     </linearGradient>
 
     <!-- Header Gradient -->
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#60a5fa" />
-      <stop offset="100%" stop-color="#a855f7" />
+      <stop offset="40%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
-    <!-- Card Gradient -->
+    <!-- Card Base Gradient -->
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#14213d" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#0b1329" stop-opacity="0.9" />
+      <stop offset="0%" stop-color="#111c35" />
+      <stop offset="100%" stop-color="#0a1224" />
     </linearGradient>
 
     <!-- Flow Line Gradient -->
     <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0078d4" />
-      <stop offset="30%" stop-color="#38bdf8" />
-      <stop offset="70%" stop-color="#a855f7" />
+      <stop offset="25%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="75%" stop-color="#eab308" />
       <stop offset="100%" stop-color="#10b981" />
     </linearGradient>
 
     <!-- Glow Filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
-    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="1.5" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
 
   <style>
     .flow-line {
       stroke: url(#lineGrad);
-      stroke-width: 2.5;
-      stroke-dasharray: 6 6;
-      animation: dashMove 2s linear infinite;
+      stroke-width: 2;
+      stroke-dasharray: 6 5;
+      animation: dashStream 1.8s linear infinite;
     }
-    @keyframes dashMove {
+    @keyframes dashStream {
       to {
-        stroke-dashoffset: -24;
+        stroke-dashoffset: -22;
       }
     }
 
-    .pulse-node {
-      animation: pulseAnim 2.5s ease-in-out infinite;
-      transform-origin: center;
+    .pulse-dot {
+      animation: pulseGlow 2s ease-in-out infinite;
     }
-    .node-2 { animation-delay: 0.4s; }
-    .node-3 { animation-delay: 0.8s; }
-    .node-4 { animation-delay: 1.2s; }
-    .node-5 { animation-delay: 1.6s; }
-    .node-6 { animation-delay: 2.0s; }
+    .p-d1 { animation-delay: 0.0s; }
+    .p-d2 { animation-delay: 0.3s; }
+    .p-d3 { animation-delay: 0.6s; }
+    .p-d4 { animation-delay: 0.9s; }
+    .p-d5 { animation-delay: 1.2s; }
+    .p-d6 { animation-delay: 1.5s; }
 
-    @keyframes pulseAnim {
-      0%, 100% {
-        r: 6;
-        opacity: 0.6;
-      }
-      50% {
-        r: 8.5;
-        opacity: 1;
-      }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; r: 3; }
+      50% { opacity: 1; r: 4.5; }
     }
 
-    .card-border {
-      stroke: #1e3a5f;
-      stroke-width: 1.2;
-      transition: all 0.3s ease;
-    }
     .stage-title {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 11px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 10.5px;
       font-weight: 700;
-      fill: #e2e8f0;
-      letter-spacing: 0.5px;
+      fill: #f1f5f9;
+      letter-spacing: 0.6px;
     }
-    .stage-tag {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 9px;
+    .stage-sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 8.5px;
       font-weight: 500;
       fill: #94a3b8;
     }
@@ -97,185 +85,212 @@
       font-size: 8.5px;
       font-weight: 600;
     }
-    .header-text {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 13px;
+    .header-main {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12.5px;
       font-weight: 700;
       letter-spacing: 1.5px;
       fill: url(#titleGrad);
     }
-    .header-sub {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    .header-meta {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-size: 10px;
-      font-weight: 400;
+      font-weight: 500;
       fill: #64748b;
+    }
+    .status-badge {
+      font-family: ui-monospace, monospace;
+      font-size: 8px;
+      font-weight: 600;
     }
   </style>
 
   <!-- Container Box -->
-  <rect x="2" y="2" width="976" height="266" rx="14" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+  <rect x="1" y="1" width="978" height="268" rx="12" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.2" />
 
-  <!-- Header Section -->
-  <g transform="translate(30, 28)">
-    <circle cx="6" cy="6" r="4" fill="#10b981" />
-    <circle cx="6" cy="6" r="7" fill="none" stroke="#10b981" stroke-width="1" opacity="0.5">
-      <animate attributeName="r" values="5;10;5" dur="3s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite" />
+  <!-- Top Title Bar -->
+  <g transform="translate(25, 26)">
+    <circle cx="5" cy="5" r="4" fill="#10b981" />
+    <circle cx="5" cy="5" r="7" fill="none" stroke="#10b981" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="4;8;4" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.5s" repeatCount="indefinite" />
     </circle>
-    <text x="22" y="10" class="header-text">ENTERPRISE DEVSECOPS PIPELINE &amp; AUTOMATION ARCHITECTURE</text>
-    <text x="730" y="10" class="header-sub">LIVE WORKFLOW SPECIFICATION</text>
+    <text x="20" y="9" class="header-main">ENTERPRISE DEVSECOPS &amp; AZURE CI/CD DELIVERY LIFECYCLE</text>
+    <text x="740" y="9" class="header-meta">ZERO-TRUST PIPELINE SPEC</text>
   </g>
 
-  <!-- Flow Connector Line -->
-  <path d="M 100 135 L 880 135" class="flow-line" />
+  <!-- Global Flow Connector Behind Cards -->
+  <path d="M 20 150 L 960 150" class="flow-line" />
 
-  <!-- STAGE 1: Code & SCM -->
-  <g transform="translate(25, 75)">
-    <rect x="0" y="0" width="138" height="150" rx="10" fill="url(#cardGrad)" class="card-border" />
-    <rect x="0" y="0" width="138" height="24" rx="10" fill="#0078d4" fill-opacity="0.2" />
-    <text x="12" y="16" class="stage-title">01 • SOURCE SCM</text>
-    <circle cx="124" cy="12" r="3.5" fill="#38bdf8" />
-
-    <!-- Content -->
-    <text x="12" y="44" class="stage-tag">Version Control &amp; PR</text>
-    <g transform="translate(10, 56)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#60a5fa">Git / GitHub PR</text>
-    </g>
-    <g transform="translate(10, 80)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#93c5fd">Azure OIDC Auth</text>
-    </g>
-    <g transform="translate(10, 104)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#94a3b8">Branch Protection</text>
-    </g>
-
-    <circle cx="69" cy="60" r="7" fill="#0078d4" class="pulse-node" filter="url(#glow)" />
+  <!-- Inter-stage Arrow Connectors in Gaps -->
+  <!-- Gap 1 (160 to 180, center 170) -->
+  <g transform="translate(160, 142)">
+    <path d="M 5 8 L 13 8 M 10 5 L 14 8 L 10 11" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <!-- Gap 2 (320 to 340, center 330) -->
+  <g transform="translate(320, 142)">
+    <path d="M 5 8 L 13 8 M 10 5 L 14 8 L 10 11" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <!-- Gap 3 (480 to 500, center 490) -->
+  <g transform="translate(480, 142)">
+    <path d="M 5 8 L 13 8 M 10 5 L 14 8 L 10 11" fill="none" stroke="#f43f5e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <!-- Gap 4 (640 to 660, center 650) -->
+  <g transform="translate(640, 142)">
+    <path d="M 5 8 L 13 8 M 10 5 L 14 8 L 10 11" fill="none" stroke="#eab308" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <!-- Gap 5 (800 to 820, center 810) -->
+  <g transform="translate(800, 142)">
+    <path d="M 5 8 L 13 8 M 10 5 L 14 8 L 10 11" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
   </g>
 
-  <!-- STAGE 2: Code Quality & Secrets -->
-  <g transform="translate(185, 75)">
-    <rect x="0" y="0" width="138" height="150" rx="10" fill="url(#cardGrad)" class="card-border" />
-    <rect x="0" y="0" width="138" height="24" rx="10" fill="#623ce4" fill-opacity="0.2" />
-    <text x="12" y="16" class="stage-title">02 • PRE-FLIGHT</text>
-    <circle cx="124" cy="12" r="3.5" fill="#a855f7" />
+  <!-- STAGE 1: Source & SCM (x=20) -->
+  <g transform="translate(20, 72)">
+    <rect x="0" y="0" width="140" height="152" rx="9" fill="url(#cardGrad)" stroke="#1e3a5f" stroke-width="1.2" />
+    <path d="M 0 9 Q 0 0 9 0 L 131 0 Q 140 0 140 9 L 140 24 L 0 24 Z" fill="#0078d4" fill-opacity="0.25" />
+    <text x="10" y="16" class="stage-title">01 • SCM &amp; AUTH</text>
+    <circle cx="128" cy="12" class="pulse-dot p-d1" fill="#38bdf8" />
 
-    <text x="12" y="44" class="stage-tag">Lint &amp; Secret Scan</text>
-    <g transform="translate(10, 56)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#c084fc">TFLint Validation</text>
+    <text x="10" y="40" class="stage-sub">Version Control &amp; Auth</text>
+    <g transform="translate(10, 48)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#60a5fa">Git / GitHub PR</text>
     </g>
-    <g transform="translate(10, 80)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#f43f5e">Gitleaks / Truffle</text>
+    <g transform="translate(10, 73)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#93c5fd">Azure OIDC Login</text>
     </g>
-    <g transform="translate(10, 104)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#a855f7">Terraform Fmt</text>
+    <g transform="translate(10, 98)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#cbd5e1">Branch Protection</text>
     </g>
 
-    <circle cx="69" cy="60" r="7" fill="#623ce4" class="pulse-node node-2" filter="url(#glow)" />
+    <!-- Stage Status Bar -->
+    <text x="10" y="138" class="status-badge" fill="#38bdf8">● OIDC AUTH READY</text>
   </g>
 
-  <!-- STAGE 3: Shift-Left Security -->
-  <g transform="translate(345, 75)">
-    <rect x="0" y="0" width="138" height="150" rx="10" fill="url(#cardGrad)" class="card-border" />
-    <rect x="0" y="0" width="138" height="24" rx="10" fill="#f43f5e" fill-opacity="0.2" />
-    <text x="12" y="16" class="stage-title">03 • SHIFT-LEFT SAST</text>
-    <circle cx="124" cy="12" r="3.5" fill="#f43f5e" />
+  <!-- STAGE 2: Pre-Flight Lint (x=180) -->
+  <g transform="translate(180, 72)">
+    <rect x="0" y="0" width="140" height="152" rx="9" fill="url(#cardGrad)" stroke="#2e255e" stroke-width="1.2" />
+    <path d="M 0 9 Q 0 0 9 0 L 131 0 Q 140 0 140 9 L 140 24 L 0 24 Z" fill="#623ce4" fill-opacity="0.25" />
+    <text x="10" y="16" class="stage-title">02 • PRE-FLIGHT</text>
+    <circle cx="128" cy="12" class="pulse-dot p-d2" fill="#a855f7" />
 
-    <text x="12" y="44" class="stage-tag">IaC Security Baselines</text>
-    <g transform="translate(10, 56)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#fb7185">Checkov Policies</text>
+    <text x="10" y="40" class="stage-sub">Syntax &amp; Secrets Scan</text>
+    <g transform="translate(10, 48)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#c084fc">TFLint Validation</text>
     </g>
-    <g transform="translate(10, 80)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#fda4af">tfsec Deep Scan</text>
+    <g transform="translate(10, 73)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#f43f5e">Gitleaks Detection</text>
     </g>
-    <g transform="translate(10, 104)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#f472b6">SonarQube Gates</text>
+    <g transform="translate(10, 98)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#e2e8f0">Terraform Format</text>
     </g>
 
-    <circle cx="69" cy="60" r="7" fill="#f43f5e" class="pulse-node node-3" filter="url(#glow)" />
+    <text x="10" y="138" class="status-badge" fill="#a855f7">● SYNTAX VERIFIED</text>
   </g>
 
-  <!-- STAGE 4: State & Plan -->
-  <g transform="translate(505, 75)">
-    <rect x="0" y="0" width="138" height="150" rx="10" fill="url(#cardGrad)" class="card-border" />
-    <rect x="0" y="0" width="138" height="24" rx="10" fill="#38bdf8" fill-opacity="0.2" />
-    <text x="12" y="16" class="stage-title">04 • PLAN &amp; STATE</text>
-    <circle cx="124" cy="12" r="3.5" fill="#38bdf8" />
+  <!-- STAGE 3: Shift-Left SAST (x=340) -->
+  <g transform="translate(340, 72)">
+    <rect x="0" y="0" width="140" height="152" rx="9" fill="url(#cardGrad)" stroke="#4c1d30" stroke-width="1.2" />
+    <path d="M 0 9 Q 0 0 9 0 L 131 0 Q 140 0 140 9 L 140 24 L 0 24 Z" fill="#f43f5e" fill-opacity="0.25" />
+    <text x="10" y="16" class="stage-title">03 • SHIFT-LEFT SAST</text>
+    <circle cx="128" cy="12" class="pulse-dot p-d3" fill="#fb7185" />
 
-    <text x="12" y="44" class="stage-tag">Backend Locking</text>
-    <g transform="translate(10, 56)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#38bdf8">Terraform Plan</text>
+    <text x="10" y="40" class="stage-sub">IaC Security Baselines</text>
+    <g transform="translate(10, 48)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#fb7185">Checkov Policies</text>
     </g>
-    <g transform="translate(10, 80)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#7dd3fc">Azure Blob Locking</text>
+    <g transform="translate(10, 73)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#fda4af">tfsec Deep Scan</text>
     </g>
-    <g transform="translate(10, 104)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#e2e8f0">Artifact Publish</text>
+    <g transform="translate(10, 98)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#f472b6">SonarQube Gates</text>
     </g>
 
-    <circle cx="69" cy="60" r="7" fill="#38bdf8" class="pulse-node node-4" filter="url(#glow)" />
+    <text x="10" y="138" class="status-badge" fill="#fb7185">● CIS AUDIT PASSED</text>
   </g>
 
-  <!-- STAGE 5: Containers & Approval Gate -->
-  <g transform="translate(665, 75)">
-    <rect x="0" y="0" width="138" height="150" rx="10" fill="url(#cardGrad)" class="card-border" />
-    <rect x="0" y="0" width="138" height="24" rx="10" fill="#eab308" fill-opacity="0.2" />
-    <text x="12" y="16" class="stage-title">05 • GATES &amp; IMAGES</text>
-    <circle cx="124" cy="12" r="3.5" fill="#facc15" />
+  <!-- STAGE 4: State & Plan (x=500) -->
+  <g transform="translate(500, 72)">
+    <rect x="0" y="0" width="140" height="152" rx="9" fill="url(#cardGrad)" stroke="#143c52" stroke-width="1.2" />
+    <path d="M 0 9 Q 0 0 9 0 L 131 0 Q 140 0 140 9 L 140 24 L 0 24 Z" fill="#0284c7" fill-opacity="0.25" />
+    <text x="10" y="16" class="stage-title">04 • PLAN &amp; STATE</text>
+    <circle cx="128" cy="12" class="pulse-dot p-d4" fill="#38bdf8" />
 
-    <text x="12" y="44" class="stage-tag">Vulnerability Audit</text>
-    <g transform="translate(10, 56)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#fde047">Manual Approval Gate</text>
+    <text x="10" y="40" class="stage-sub">Remote State Locking</text>
+    <g transform="translate(10, 48)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#38bdf8">Terraform Plan</text>
     </g>
-    <g transform="translate(10, 80)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#facc15">Trivy Image Scan</text>
+    <g transform="translate(10, 73)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#7dd3fc">Azure Blob Lock</text>
     </g>
-    <g transform="translate(10, 104)">
-      <rect x="0" y="0" width="118" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#cbd5e1">Azure ACR Push</text>
+    <g transform="translate(10, 98)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#e2e8f0">Artifact Spec</text>
     </g>
 
-    <circle cx="69" cy="60" r="7" fill="#eab308" class="pulse-node node-5" filter="url(#glow)" />
+    <text x="10" y="138" class="status-badge" fill="#38bdf8">● LEASE LOCKED</text>
   </g>
 
-  <!-- STAGE 6: Production & Monitoring -->
-  <g transform="translate(825, 75)">
-    <rect x="0" y="0" width="130" height="150" rx="10" fill="url(#cardGrad)" class="card-border" />
-    <rect x="0" y="0" width="130" height="24" rx="10" fill="#10b981" fill-opacity="0.2" />
-    <text x="12" y="16" class="stage-title">06 • CLOUD PROD</text>
-    <circle cx="116" cy="12" r="3.5" fill="#10b981" />
+  <!-- STAGE 5: Containers & Gates (x=660) -->
+  <g transform="translate(660, 72)">
+    <rect x="0" y="0" width="140" height="152" rx="9" fill="url(#cardGrad)" stroke="#423412" stroke-width="1.2" />
+    <path d="M 0 9 Q 0 0 9 0 L 131 0 Q 140 0 140 9 L 140 24 L 0 24 Z" fill="#eab308" fill-opacity="0.25" />
+    <text x="10" y="16" class="stage-title">05 • GATES &amp; IMAGES</text>
+    <circle cx="128" cy="12" class="pulse-dot p-d5" fill="#facc15" />
 
-    <text x="12" y="44" class="stage-tag">Live Infrastructure</text>
-    <g transform="translate(8, 56)">
-      <rect x="0" y="0" width="114" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#34d399">AKS Kubernetes</text>
+    <text x="10" y="40" class="stage-sub">Vulnerability &amp; Sign-off</text>
+    <g transform="translate(10, 48)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#facc15">Manual Sign-off</text>
     </g>
-    <g transform="translate(8, 80)">
-      <rect x="0" y="0" width="114" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#6ee7b7">Azure VMs / VNet</text>
+    <g transform="translate(10, 73)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#fde047">Trivy CVE Scan</text>
     </g>
-    <g transform="translate(8, 104)">
-      <rect x="0" y="0" width="114" height="18" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
-      <text x="6" y="12" class="badge-pill" fill="#a7f3d0">Azure Monitor / Logs</text>
+    <g transform="translate(10, 98)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#cbd5e1">Azure ACR Push</text>
     </g>
 
-    <circle cx="65" cy="60" r="7" fill="#10b981" class="pulse-node node-6" filter="url(#glow)" />
+    <text x="10" y="138" class="status-badge" fill="#facc15">● GATE APPROVED</text>
   </g>
 
-  <!-- Bottom Terminal Status Bar -->
-  <g transform="translate(30, 240)">
-    <text x="0" y="12" font-family="ui-monospace, monospace" font-size="9.5" fill="#64748b">STATUS: <tspan fill="#10b981">● ACTIVE RUNNER</tspan> | GUARDRAILS: <tspan fill="#38bdf8">ENFORCED (CHECKOV + TFSEC + TRIVY)</tspan> | TARGET: <tspan fill="#a855f7">AZURE PROD CLUSTER</tspan></text>
+  <!-- STAGE 6: Production Release (x=820) -->
+  <g transform="translate(820, 72)">
+    <rect x="0" y="0" width="140" height="152" rx="9" fill="url(#cardGrad)" stroke="#133d2c" stroke-width="1.2" />
+    <path d="M 0 9 Q 0 0 9 0 L 131 0 Q 140 0 140 9 L 140 24 L 0 24 Z" fill="#10b981" fill-opacity="0.25" />
+    <text x="10" y="16" class="stage-title">06 • LIVE CLOUD</text>
+    <circle cx="128" cy="12" class="pulse-dot p-d6" fill="#34d399" />
+
+    <text x="10" y="40" class="stage-sub">Kubernetes &amp; Observability</text>
+    <g transform="translate(10, 48)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#34d399">AKS Kubernetes</text>
+    </g>
+    <g transform="translate(10, 73)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#6ee7b7">Azure VMs / VNet</text>
+    </g>
+    <g transform="translate(10, 98)">
+      <rect x="0" y="0" width="120" height="20" rx="4" fill="#0b1329" stroke="#1e293b" stroke-width="0.8" />
+      <text x="8" y="14" class="badge-pill" fill="#a7f3d0">Azure Monitor / KQL</text>
+    </g>
+
+    <text x="10" y="138" class="status-badge" fill="#34d399">● PRODUCTION LIVE</text>
+  </g>
+
+  <!-- Bottom Console Status Bar -->
+  <g transform="translate(25, 244)">
+    <text x="0" y="10" font-family="ui-monospace, monospace" font-size="9" fill="#64748b">LIFECYCLE: <tspan fill="#10b981">● RUNNING</tspan> | GUARDRAILS: <tspan fill="#38bdf8">ENFORCED (CHECKOV + TFSEC + TRIVY)</tspan> | CONTROLS: <tspan fill="#facc15">MANUAL APPROVAL</tspan> | TARGET: <tspan fill="#34d399">AZURE PRODUCTION</tspan></text>
   </g>
 </svg>
