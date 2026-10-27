@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- Hero Banner (Spotless Light Foundation · Fair Filter Studio Portrait · Zero Dots) -->
+<!-- Hero Banner (Spotless Light Foundation · Studio Portrait · Zero Dots) -->
 <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
   <img src="./assets/banner.png" alt="Sanjeev Singh - Freelance Azure Cloud Engineer | Terraform & Platform Infrastructure" width="100%">
 </a>
 
 <br><br>
 
-<!-- Minimalist Call-to-Action Bar (Clutter-Free, Direct Business Inquiries) -->
+<!-- Minimalist Call-to-Action Bar -->
 <p align="center">
   <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/🌐_Portfolio-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logoColor=white" alt="View Portfolio" />
@@ -26,7 +26,7 @@
   </a>
 </p>
 
-<!-- Live Animated Architecture & Status Radar (Dark Colored Typography · Real-Time Cycling) -->
+<!-- Live Architecture Radar & Capability Bar (Subtle Motion · Zero Text Overlap) -->
 <p align="center">
   <img src="./assets/header-animation.svg" alt="Live Architecture Radar & Consulting Status" width="100%">
 </p>
@@ -42,7 +42,7 @@ I am an independent **Freelance Azure Cloud Engineer** and **Infrastructure Cons
 I partner with seed-to-scale startups, fintech platforms, and engineering leaders to resolve infrastructure reliability, cloud security, and deployment bottlenecks:
 
 * **Eliminating Configuration Drift:** Replacing manual Azure portal operations with 100% code-driven, modular Terraform configurations backed by remote state lease locking in Azure Blob Storage and automated PR validation gates.
-* **Enterprise Cloud Foundations (CAF):** Architecting compliant multi-subscription Azure Landing Zones with hierarchical Management Groups, centralized transit Hub-and-Spoke firewalls, and User-Defined Routes (UDR) for default route inspection.
+* **Enterprise Cloud Foundations (CAF):** Architecting compliant multi-subscription Azure Landing Zones with hierarchical Management Groups, centralized transit Hub-and-Spoke firewalls, and User-Defined Routes (UDR) for default `0.0.0.0/0` traffic inspection.
 * **Enterprise AI & GenAI Landing Zones:** Designing Zero-Trust perimeters for Generative AI workloads—integrating private Azure OpenAI (GPT-4o), internal API Management as an **AI Gateway** (token rate-limiting, semantic caching), and Azure AI Search for vector RAG grounding.
 * **High-Throughput Operational Experience:** Supported infrastructure automation and DevOps operations for a high-volume US-based futures proprietary trading platform, emphasizing low-drift IaC and rapid disaster recovery runbooks.
 * **Institutional Governance Heritage:** 4+ years as **Assistant Manager – Banking Operations / Risk & Compliance at State Bank of India (SBI)**. This tenure instilled an authentic background in operational risk controls, least-privilege RBAC, and audit trail integrity that I translate directly into Zero-Trust cloud defense.
@@ -51,12 +51,14 @@ I partner with seed-to-scale startups, fintech platforms, and engineering leader
 
 ## 🎯 2. Primary Navigation & Direct Links
 
-| Destination | Purpose | Direct Action |
-| :--- | :--- | :---: |
-| **Consulting Portfolio** | Case studies, interactive architecture walkthroughs, and live video player | [**sanjeevsingh.oneps.in →**](https://sanjeevsingh.oneps.in) |
-| **Featured Projects** | Production-ready Terraform Landing Zones and DevSecOps pipelines | [**Inspect Codebases ↓**](#-4-featured-engineering-projects) |
-| **Professional Network** | Connect for consulting inquiries, industry insights, and client references | [**LinkedIn Profile →**](https://linkedin.com/in/sanjiivsingh) |
-| **Project Inquiries** | Discuss freelance, contract, or architecture advisory engagements | [**Direct Email →**](mailto:sanjeevsinghred@gmail.com) |
+<p align="center">
+  <a href="https://sanjeevsingh.oneps.in"><b>🌐 Consulting Portfolio</b></a> &nbsp;•&nbsp;
+  <a href="#-4-featured-engineering-projects"><b>🌟 Featured Projects</b></a> &nbsp;•&nbsp;
+  <a href="#-5-architecture--delivery-workflow-visuals"><b>📐 Architecture Visuals</b></a> &nbsp;•&nbsp;
+  <a href="#-6-technical-skills--core-competencies"><b>🧰 Technical Skills</b></a> &nbsp;•&nbsp;
+  <a href="#-7-selected-technical-articles--architecture-guides"><b>📖 Architecture Guides</b></a> &nbsp;•&nbsp;
+  <a href="mailto:sanjeevsinghred@gmail.com"><b>🤝 Project Inquiries</b></a>
+</p>
 
 ---
 
@@ -66,14 +68,14 @@ I partner with seed-to-scale startups, fintech platforms, and engineering leader
   <img src="./assets/services-matrix.png" alt="Consulting Pillars & Freelance Engagement Sprints" width="100%">
 </p>
 
-I provide fixed-price sprint engagements and milestone deliverables with clear business outcomes:
+I provide fixed-price sprint engagements and milestone deliverables with measurable business outcomes:
 
-| Consulting Service | Client Problem Solved | Core Deliverables & Business Outcome | Typical Timeline |
-| :--- | :--- | :--- | :---: |
-| **Azure Landing Zone Foundation (CAF)** | Fragmented subscriptions, uninspected traffic, and manual network provisioning. | • Management Group hierarchy & subscription governance<br>• Central Azure Firewall, Bastion, & GatewaySubnet<br>• Bidirectional VNet peering with UDR `0.0.0.0/0` traffic inspection<br>**Outcome:** Clean, auditable multi-account platform ready for workloads. | **1 – 2 Weeks**<br>(Fixed-Price Sprint) |
-| **Enterprise AI & GenAI Private Perimeter** | Exposing proprietary company data to public LLM endpoints without token governance or rate limits. | • Private Azure OpenAI (GPT-4o & text-embedding-3)<br>• Internal APIM AI Gateway (TPM/RPM token rate limiting)<br>• Semantic caching reducing repetitive GenAI prompt costs by up to 40%<br>• Azure AI Search vector database for enterprise RAG grounding<br>**Outcome:** Enterprise-grade GenAI foundation with zero public ingress. | **1 – 2 Weeks**<br>(Fixed-Price Sprint) |
-| **Shift-Left DevSecOps & Security Automation** | Security misconfigurations and hardcoded credentials reaching production environments undetected. | • GitHub Actions / Azure DevOps CI/CD with passwordless OIDC auth<br>• Pre-commit linters (**TFLint**, **Gitleaks**) on every PR<br>• Automated IaC security scanning (**Checkov** & **tfsec**)<br>• Container image vulnerability scanning (**Trivy**) & approval gates<br>**Outcome:** Automated security quality gates enforcing policy before deployment. | **2 – 3 Weeks**<br>(Milestone Delivery) |
-| **Production Kubernetes (AKS) Enablement** | Unhardened container clusters, node sprawl, and complex ingress configurations. | • Production AKS cluster provisioning via modular Terraform<br>• Microsoft Entra Workload Identity federation<br>• Hardened Pod Security Contexts & default-deny NetworkPolicies<br>• Horizontal Pod Autoscaler (HPA) & minimal distroless container builds<br>**Outcome:** Secure, auto-scaling microservices infrastructure. | **2 – 4 Weeks**<br>(Project Milestone) |
+* **Azure Landing Zone Foundation (CAF):** Clean, auditable multi-account platform with Management Group hierarchies, centralized Azure Firewall transit, Bastion access, and bidirectional VNet peering enforcing UDR default route inspection. *(1–2 Week Fixed-Price Sprint)*
+* **Enterprise AI & GenAI Private Perimeter:** Private Azure OpenAI and internal APIM AI Gateway with token rate throttling (TPM/RPM), semantic prompt caching (reducing repetitive query costs by up to 40%), and Azure AI Search vector grounding with zero public ingress. *(1–2 Week Fixed-Price Sprint)*
+* **Shift-Left DevSecOps & Security Automation:** CI/CD workflows using passwordless Azure OIDC authentication, automated PR static analysis (**Checkov**, **tfsec**, **TFLint**), secret detection (**Gitleaks**), and container image scanning (**Trivy**). *(2–3 Week Milestone Delivery)*
+* **Production Kubernetes (AKS) Enablement:** Modular Terraform provisioning of hardened AKS clusters with Microsoft Entra Workload Identity, Pod Security Contexts, and default-deny NetworkPolicies. *(2–4 Week Project Milestone)*
+
+> Detailed sprint breakdowns, deliverables, and client SLAs are available on the [Consulting Portfolio Website →](https://sanjeevsingh.oneps.in)
 
 ---
 
@@ -81,88 +83,82 @@ I provide fixed-price sprint engagements and milestone deliverables with clear b
 
 A curated selection of production-grade reference architectures, modular IaC frameworks, and automation tooling:
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 1. 🤖 [Azure Enterprise AI Landing Zone](https://github.com/sanjiivsingh/azure-enterprise-ai-landing-zone-terraform)
+**Production Generative AI & LLM Infrastructure with Modular Terraform**
 
-### 🤖 [Azure Enterprise AI Landing Zone](https://github.com/sanjiivsingh/azure-enterprise-ai-landing-zone-terraform)
-**Production Generative AI & LLM Infrastructure with Terraform**
-- **Problem Solved:** Enterprise AI adoption requires strict data boundary governance, token rate limiting, and zero public internet exposure.
-- **Engineering Approach:** Zero-Trust architecture provisioning **Azure OpenAI (GPT-4o & text-embedding-3)** mediated through **Azure API Management (APIM)** acting as an AI Gateway with token rate throttling (TPM/RPM), semantic caching, and vector grounding over **Azure AI Search**.
-- **Verification Evidence:** Passed Checkov SAST, tfsec, and TFLint validations with `public_network_access_enabled = false` and private DNS zone links. Verified passing GitHub Actions run ID `4043186...`.
-- **Stack:** Azure OpenAI · APIM AI Gateway · AI Search Vector RAG · Key Vault · Terraform · OIDC
+<p align="center">
+  <a href="https://github.com/sanjiivsingh/azure-enterprise-ai-landing-zone-terraform">
+    <img src="./assets/project-ai-landing-zone.png" alt="Azure Enterprise AI Landing Zone Architecture" width="100%">
+  </a>
+</p>
 
-👉 [**Inspect AI Landing Zone Repository →**](https://github.com/sanjiivsingh/azure-enterprise-ai-landing-zone-terraform)
+* **Problem Solved:** Enterprise AI adoption requires strict data boundary governance, token rate limiting, and zero public internet exposure.
+* **Engineering Architecture:** Zero-Trust perimeter provisioning **Azure OpenAI (GPT-4o & text-embedding-3)** mediated through **Azure API Management (APIM)** acting as an AI Gateway with token rate throttling (TPM/RPM), semantic caching, and vector grounding over **Azure AI Search**.
+* **Verified Evidence:** Checkov SAST, tfsec, and TFLint validations pass with `public_network_access_enabled = false` and private DNS zone links. Verified passing GitHub Actions run ID `4043186...`.
+* **Stack:** `Azure OpenAI` · `APIM AI Gateway` · `AI Search Vector RAG` · `Key Vault HSM` · `Terraform 1.9+` · `OIDC`
+* **Status:** `CI-Validated Reference Architecture` • [**Inspect AI Landing Zone Repository →**](https://github.com/sanjiivsingh/azure-enterprise-ai-landing-zone-terraform)
 
-</td>
-<td width="50%" valign="top">
+<br>
 
-### 🏛️ [Azure Enterprise Hub-and-Spoke Landing Zone](https://github.com/sanjiivsingh/azure-enterprise-landing-zone-terraform)
-**Enterprise Cloud Adoption Framework (CAF) Network Mesh**
-- **Problem Solved:** Growing organizations need centralized traffic inspection, perimeter protection, and consistent routing between spoke workloads.
-- **Engineering Approach:** Modular Terraform provisioning a central transit Hub with **Azure Firewall**, **Azure Bastion**, and hybrid GatewaySubnet. Automated bidirectional VNet peering connects spoke networks with custom **User-Defined Routes (UDRs)** forcing default `0.0.0.0/0` traffic inspection.
-- **Verification Evidence:** Validated with TFLint, Checkov CIS Azure Benchmarks, and automated GitHub Actions workflow (`ci-cd.yml`). Verified passing GitHub Actions run ID `4045002...`.
-- **Stack:** Azure Firewall · Hub-and-Spoke · UDR Routing · Bastion · VNet Peering · Terraform
+### 2. 🏛️ [Azure Enterprise Hub-and-Spoke Landing Zone](https://github.com/sanjiivsingh/azure-enterprise-landing-zone-terraform)
+**Enterprise Cloud Adoption Framework (CAF) Transit Network Mesh**
 
-👉 [**Inspect Hub-and-Spoke Repository →**](https://github.com/sanjiivsingh/azure-enterprise-landing-zone-terraform)
+<p align="center">
+  <a href="https://github.com/sanjiivsingh/azure-enterprise-landing-zone-terraform">
+    <img src="./assets/project-hub-spoke.png" alt="Azure Enterprise Hub-and-Spoke Network Architecture" width="100%">
+  </a>
+</p>
 
-</td>
-</tr>
+* **Problem Solved:** Growing organizations need centralized traffic inspection, perimeter protection, and consistent routing between spoke workloads without route collisions.
+* **Engineering Architecture:** Modular Terraform provisioning a central transit Hub with **Azure Firewall**, **Azure Bastion**, and hybrid GatewaySubnet. Automated bidirectional VNet peering connects spoke networks with custom **User-Defined Routes (UDRs)** forcing default `0.0.0.0/0` traffic inspection.
+* **Verified Evidence:** Validated with TFLint, Checkov CIS Azure Benchmarks, and automated GitHub Actions workflow (`ci-cd.yml`). Verified passing GitHub Actions run ID `4045002...`.
+* **Stack:** `Azure Firewall` · `Hub-and-Spoke` · `UDR Routing` · `Azure Bastion` · `VNet Peering` · `Terraform`
+* **Status:** `CI-Validated Architecture` • [**Inspect Hub-and-Spoke Repository →**](https://github.com/sanjiivsingh/azure-enterprise-landing-zone-terraform)
 
-<tr>
-<td width="50%" valign="top">
+<br>
 
-### 🛡️ [Azure AKS DevSecOps Pipeline](https://github.com/sanjiivsingh/azure-aks-devsecops-pipeline)
-**Production CI/CD: Terraform · SonarQube · Trivy · Docker · ACR · AKS**
-- **Problem Solved:** Bridging the gap between software delivery and security controls to stop vulnerabilities from reaching production.
-- **Engineering Approach:** End-to-end continuous delivery pipeline integrating pre-flight linters, static security analysis (**Checkov** & **tfsec**), container vulnerability scanning (**Trivy**), minimal distroless builds, and automated rolling deployments to **Azure Kubernetes Service (AKS)** with default-deny network policies.
-- **Verification Evidence:** Integrated GitHub Actions workflow enforcing strict quality gates and manual sign-offs. Verified passing GitHub Actions run ID `4019564...`.
-- **Stack:** Azure AKS · Docker · ACR · Trivy · Checkov · SonarQube · Terraform · GitHub Actions
+### 3. 🛡️ [Azure AKS DevSecOps Pipeline](https://github.com/sanjiivsingh/azure-aks-devsecops-pipeline)
+**Production CI/CD: Terraform · SonarQube · Checkov · Trivy · Docker · ACR · AKS**
 
-👉 [**Inspect DevSecOps Pipeline Repository →**](https://github.com/sanjiivsingh/azure-aks-devsecops-pipeline)
+<p align="center">
+  <a href="https://github.com/sanjiivsingh/azure-aks-devsecops-pipeline">
+    <img src="./assets/project-devsecops.png" alt="Azure AKS DevSecOps Automated Delivery Pipeline" width="100%">
+  </a>
+</p>
 
-</td>
-<td width="50%" valign="top">
+* **Problem Solved:** Bridging the gap between software delivery velocity and security controls to stop vulnerabilities and credential leaks from reaching production.
+* **Engineering Architecture:** End-to-end continuous delivery pipeline integrating pre-flight linters, static security analysis (**Checkov** & **tfsec**), container vulnerability scanning (**Trivy**), minimal distroless builds, and automated rolling deployments to **Azure Kubernetes Service (AKS)** with default-deny network policies.
+* **Verified Evidence:** Integrated GitHub Actions workflow enforcing strict quality gates and manual sign-offs. Verified passing GitHub Actions run ID `4019564...`.
+* **Stack:** `Azure AKS` · `Docker` · `Azure ACR` · `Trivy` · `Checkov` · `SonarQube` · `Terraform` · `GitHub Actions`
+* **Status:** `CI-Validated Pipeline` • [**Inspect DevSecOps Pipeline Repository →**](https://github.com/sanjiivsingh/azure-aks-devsecops-pipeline)
 
-### 📦 [Terraform Azure Reusable Resource Modules](https://github.com/sanjiivsingh/terraform-azure-resource-modules)
+<br>
+
+### 4. 📦 [Terraform Azure Reusable Resource Modules](https://github.com/sanjiivsingh/terraform-azure-resource-modules)
 **Enterprise Multi-Tier Azure IaC Child-Module Library**
-- **Problem Solved:** Code duplication, hardcoded configurations, and state collisions across multi-environment deployments.
-- **Engineering Approach:** Engineered 11+ independent, enterprise-grade child modules (Resource Group, VNet, Subnet, NSG, Public IP, NIC, Linux VM, Bastion, Key Vault, and Application Gateway) architected for implicit dependency resolution and multi-environment decoupling.
-- **Verification Evidence:** Automated GitHub Actions pipeline validating formatting (`terraform fmt`), syntax, and plan generation on every PR.
-- **Stack:** Terraform 1.9+ · AzureRM Provider · Modular IaC · Key Vault · App Gateway · CI/CD
 
-👉 [**Inspect Reusable Modules Repository →**](https://github.com/sanjiivsingh/terraform-azure-resource-modules)
+<p align="center">
+  <a href="https://github.com/sanjiivsingh/terraform-azure-resource-modules">
+    <img src="./assets/project-terraform-modules.png" alt="Terraform Azure Reusable Resource Modules" width="100%">
+  </a>
+</p>
 
-</td>
-</tr>
+* **Problem Solved:** Code duplication, hardcoded configurations, and state collisions across multi-environment cloud infrastructure deployments.
+* **Engineering Architecture:** Engineered 11+ independent, enterprise-grade child modules (Resource Group, VNet, Subnet, NSG, Public IP, NIC, Linux VM, Bastion, Key Vault, and Application Gateway) architected for implicit dependency resolution and multi-environment decoupling.
+* **Verified Evidence:** Automated GitHub Actions pipeline validating formatting (`terraform fmt`), syntax, and plan generation on every PR.
+* **Stack:** `Terraform 1.9+` · `AzureRM Provider` · `Modular IaC` · `Key Vault` · `App Gateway` · `CI/CD`
+* **Status:** `CI-Validated Component Library` • [**Inspect Reusable Modules Repository →**](https://github.com/sanjiivsingh/terraform-azure-resource-modules)
 
-<tr>
-<td width="50%" valign="top">
+<br>
 
-### ⚡ [PropEdge Trading Platform Infrastructure Lab](https://github.com/sanjiivsingh/propedge-docker-lab)
-**High-Concurrency Multi-Tier Containerized Workload Deployment**
-- **Problem Solved:** Operating a high-throughput financial trading application requiring private service networking and zero exposed public database ports.
-- **Engineering Approach:** Multi-container stack orchestrated via Docker Compose with segregated bridge networks separating the React frontend, FastAPI backend, and PostgreSQL database on hardened Azure Virtual Machines, fronted securely by Cloudflare Tunnel.
-- **Verification Evidence:** Verified private network isolation, persistent database volume leasing, and automated container lifecycle scripts.
-- **Stack:** Azure VMs · Docker Compose · FastAPI · PostgreSQL · React · Cloudflare Tunnel
+<details>
+<summary><b>🔍 View Additional Specialized Engineering Repositories (PropEdge & CREP)</b></summary>
+<br>
 
-👉 [**Inspect PropEdge Trading Lab →**](https://github.com/sanjiivsingh/propedge-docker-lab)
+* ⚡ **[PropEdge Trading Platform Infrastructure Lab](https://github.com/sanjiivsingh/propedge-docker-lab):** Multi-tier container architecture orchestrated via Docker Compose with segregated bridge networks isolating the React frontend, FastAPI backend, and PostgreSQL database on hardened Azure Virtual Machines, fronted securely by Cloudflare Tunnel. *(Status: Implemented & Locally Validated)*
+* 🛠️ **[CREP — Code Repository Environment Provisioner](https://github.com/sanjiivsingh/CREP):** Modular Bash command-line utility automating Git repository lifecycle, branch protection baselines, and remote GitHub synchronization with 20+ automated unit tests and multi-OS CI matrix. *(Status: CI-Validated CLI Utility)*
 
-</td>
-<td width="50%" valign="top">
-
-### 🛠️ [CREP — Code Repository Environment Provisioner](https://github.com/sanjiivsingh/CREP)
-**CLI Tool for Standardized Git & GitHub Lifecycle Automation**
-- **Problem Solved:** Inconsistent repository bootstrapping, missing branch protection rules, and manual configuration overhead across teams.
-- **Engineering Approach:** Developed a modular Bash command-line utility automating repository provisioning, visibility toggling, `.gitignore` templating, and remote Git synchronization via the GitHub CLI (`gh`).
-- **Verification Evidence:** Built with modular sub-command architecture, comprehensive error trapping, 20+ automated unit tests (`tests/test_runner.sh`), ShellCheck static analysis, and multi-OS CI matrix.
-- **Stack:** Bash · GitHub CLI · Git · ShellCheck · CI Automation
-
-👉 [**Inspect CREP Provisioner Repository →**](https://github.com/sanjiivsingh/CREP)
-
-</td>
-</tr>
-</table>
+</details>
 
 ---
 
@@ -178,56 +174,76 @@ flowchart LR
         APP[Enterprise Apps / Microservices]
     end
 
-    subgraph Gateway["⚡ AI Gateway (Azure APIM Internal)"]
+    subgraph Gateway["⚡ Azure API Management (AI Gateway)"]
         AUTH[Managed Identity Token Auth]
         THROTTLE[TPM / RPM Token Throttling]
         CACHE[Semantic Response Cache]
-        FAILOVER[Multi-Region Model Failover]
     end
 
     subgraph AIWorkload["🧠 Private AI Workload Perimeter"]
         OAI[Azure OpenAI Service\nGPT-4o & text-embedding-3]
-        SEARCH[Azure AI Search\nVector Store & RAG Reranker]
-        LAKE[Data Lake Storage Gen2\nGrounding Knowledge Base]
+        SEARCH[Azure AI Search\nVector RAG Store]
         KV[Azure Key Vault HSM\nCMK Encryption & Secrets]
     end
 
     APP -->|Private VNet Link| AUTH
-    AUTH --> THROTTLE --> CACHE --> FAILOVER
-    FAILOVER -->|Private Endpoint| OAI
-    FAILOVER -->|Context Retrieval| SEARCH
-    SEARCH -->|Grounding Chunks| LAKE
-    KV -.->|Hardware Secrets| OAI
-
-    style Client fill:#0f172a,stroke:#38bdf8,stroke-width:1.5px,color:#fff
-    style Gateway fill:#1e1b4b,stroke:#818cf8,stroke-width:1.5px,color:#fff
-    style AIWorkload fill:#064e3b,stroke:#10b981,stroke-width:1.5px,color:#fff
-    style OAI fill:#082f49,stroke:#38bdf8,stroke-width:1.5px,color:#fff
+    AUTH --> THROTTLE --> CACHE
+    CACHE -->|Private Endpoint| OAI
+    CACHE -->|Context Retrieval| SEARCH
+    KV -.->|Hardware CMK| OAI
 ```
 
-### 2. Automated Shift-Left DevSecOps Delivery Gates
+### 2. Azure Enterprise Hub-and-Spoke Network Topology
+
+A centralized transit architecture following Microsoft Cloud Adoption Framework (CAF) with User-Defined Route (UDR) inspection:
+
+```mermaid
+flowchart TD
+    subgraph OnPrem["🏢 Hybrid Enterprise Connectivity"]
+        WAN[Corporate WAN / Data Center]
+    end
+
+    subgraph Hub["🛡️ Central Transit Hub VNet (10.0.0.0/16)"]
+        VPN[GatewaySubnet\nVPN & ExpressRoute]
+        FW[Azure Firewall Premium\nCentral 0.0.0.0/0 Inspection]
+        BAS[Azure Bastion Host\nZero-Public IP Ingress]
+        DNS[Private DNS Resolver\nCross-Spoke Resolution]
+    end
+
+    subgraph Spokes["☁️ Isolated Workload Spoke VNets"]
+        subgraph SpokeA["Workload Spoke (10.1.0.0/16)"]
+            AKS[AKS Node Pools & Pods]
+            SVC[Internal Microservices]
+        end
+        subgraph SpokeB["AI & Data Spoke (10.2.0.0/16)"]
+            PE[Private Endpoints]
+            OAI[Azure OpenAI & AI Search]
+        end
+    end
+
+    WAN <-->|IPsec S2S Tunnel| VPN
+    VPN <--> FW
+    FW <-->|VNet Peering + UDR 0.0.0.0/0| SpokeA
+    FW <-->|VNet Peering + UDR 0.0.0.0/0| SpokeB
+```
+
+### 3. Automated Shift-Left DevSecOps Delivery Lifecycle
+
+Security controls and policy validations embedded directly into every stage of the infrastructure and container delivery lifecycle:
 
 <p align="center">
-  <img src="./assets/devsecops-gates.png" alt="Automated Shift-Left DevSecOps Delivery Gates" width="100%">
+  <img src="./assets/devsecops-pipeline.svg" alt="Automated Shift-Left DevSecOps Delivery Lifecycle" width="100%">
 </p>
 
-### 3. End-to-End DevSecOps Pipeline Flow Diagram
+### 4. Platform Architecture Reel & Interactive Video Walkthrough
 
-Security controls are embedded directly into every stage of the infrastructure and container delivery lifecycle:
-
-<p align="center">
-  <img src="./assets/devsecops-pipeline.svg" alt="Enterprise DevSecOps Pipeline Architecture" width="100%">
-</p>
-
-### 4. Interactive Video Walkthrough & Platform Architecture Reel
-
-A visual demonstration of enterprise Azure architecture patterns, container delivery, and security scanning:
+A visual walkthrough demonstrating enterprise Azure architecture patterns, container delivery, and security scanning:
 
 <div align="center">
 
 <p align="center">
   <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/intro_preview.webp" alt="Platform Architecture Reel" width="85%" style="border-radius: 12px; border: 1px solid rgba(226, 232, 240, 0.8);">
+    <img src="./assets/intro_preview.webp" alt="Platform Architecture Reel - Sanjeev Singh" width="85%" style="border-radius: 12px; border: 1px solid rgba(226, 232, 240, 0.8);">
   </a>
 </p>
 
@@ -285,9 +301,9 @@ Deep-dive architectural documentation written from hands-on infrastructure engin
 
 ```text
 ├── FREELANCE / CONTRACT CLOUD & DEVSECOPS ENGINEER (2021 – Present)
-│   ├── Multiple Enterprise Client Engagements | Gurugram, India
+│   ├── Enterprise Client Consulting Engagements | Gurugram, India
 │   └── High-Throughput US Futures Proprietary Trading Platform
-│       ├── Supported Azure infrastructure automation & DevOps for a high-volume platform
+│       ├── Supported Azure infrastructure automation & DevOps for high-volume trading platform
 │       ├── Engineered modular Terraform modules for networking, compute, Key Vault, and AKS
 │       ├── Implemented DevSecOps pipelines with Checkov, tfsec, TFLint, Trivy, and Gitleaks
 │       └── Centralized Terraform remote state backend in Azure Storage with automated locking
@@ -321,21 +337,10 @@ Whether you need to architect **Enterprise Azure Landing Zones**, adopt **Modula
 </p>
 
 <p align="center">
-  <a href="mailto:sanjeevsinghred@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sanjeevsinghred@gmail.com-DC2626?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/sanjiivsingh" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-sanjiivsingh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/sanjiivsingh" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-sanjiivsingh-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logoColor=white" alt="Website" />
-  </a>
+  <a href="mailto:sanjeevsinghred@gmail.com"><b>📧 Email Sanjeev</b></a> &nbsp;•&nbsp;
+  <a href="https://linkedin.com/in/sanjiivsingh" target="_blank" rel="noopener noreferrer"><b>💼 LinkedIn Profile</b></a> &nbsp;•&nbsp;
+  <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer"><b>🌐 Consulting Portfolio</b></a> &nbsp;•&nbsp;
+  <a href="https://github.com/sanjiivsingh?tab=repositories" target="_blank" rel="noopener noreferrer"><b>🐙 GitHub Repositories</b></a>
 </p>
 
 </div>

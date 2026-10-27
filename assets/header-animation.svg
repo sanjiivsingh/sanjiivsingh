@@ -1,282 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="100%" height="110">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" width="100%" height="100">
   <defs>
     <!-- Card Shadow Filter -->
-    <filter id="cardShadow" x="-5%" y="-10%" width="110%" height="130%">
+    <filter id="radarShadow" x="-3%" y="-8%" width="106%" height="125%">
       <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.04" />
     </filter>
 
-    <linearGradient id="streamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" />
+    <linearGradient id="streamGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0078d4" />
       <stop offset="30%" stop-color="#7c3aed" />
       <stop offset="70%" stop-color="#dc2626" />
-      <stop offset="100%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
     </linearGradient>
   </defs>
 
   <style>
-    .card-bg {
+    .radar-card {
       fill: #ffffff;
       stroke: #e2e8f0;
       stroke-width: 1.5;
-      rx: 16px;
+      rx: 14px;
     }
 
     /* Live Beacon Pulse */
-    @keyframes pulseGlow {
+    @keyframes pulseGlowRadar {
       0%, 100% {
-        r: 5px;
+        r: 4.5px;
         opacity: 1;
       }
       50% {
         r: 8px;
-        opacity: 0.4;
+        opacity: 0.35;
       }
     }
     .beacon-pulse {
-      animation: pulseGlow 1.8s ease-in-out infinite;
+      animation: pulseGlowRadar 2s ease-in-out infinite;
       fill: #10b981;
     }
     .beacon-core {
       fill: #059669;
     }
 
-    /* Cycling Text Animation (5 Frames) */
-    @keyframes cycleSlide {
-      0%, 16% {
-        opacity: 1;
-        transform: translateY(0px);
-      }
-      18%, 20% {
-        opacity: 0;
-        transform: translateY(-8px);
-      }
-      21%, 97% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      98%, 100% {
-        opacity: 1;
-        transform: translateY(0px);
-      }
-    }
-
-    @keyframes cycleSlide2 {
-      0%, 18% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      20%, 36% {
-        opacity: 1;
-        transform: translateY(0px);
-      }
-      38%, 40% {
-        opacity: 0;
-        transform: translateY(-8px);
-      }
-      41%, 100% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-    }
-
-    @keyframes cycleSlide3 {
-      0%, 38% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      40%, 56% {
-        opacity: 1;
-        transform: translateY(0px);
-      }
-      58%, 60% {
-        opacity: 0;
-        transform: translateY(-8px);
-      }
-      61%, 100% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-    }
-
-    @keyframes cycleSlide4 {
-      0%, 58% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      60%, 76% {
-        opacity: 1;
-        transform: translateY(0px);
-      }
-      78%, 80% {
-        opacity: 0;
-        transform: translateY(-8px);
-      }
-      81%, 100% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-    }
-
-    @keyframes cycleSlide5 {
-      0%, 78% {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      80%, 96% {
-        opacity: 1;
-        transform: translateY(0px);
-      }
-      98%, 100% {
-        opacity: 0;
-        transform: translateY(-8px);
-      }
-    }
-
-    .t-slide1 { animation: cycleSlide 15s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
-    .t-slide2 { animation: cycleSlide2 15s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
-    .t-slide3 { animation: cycleSlide3 15s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
-    .t-slide4 { animation: cycleSlide4 15s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
-    .t-slide5 { animation: cycleSlide5 15s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
-
-    /* Blinking Cursor */
-    @keyframes blinkCursor {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-    .cursor {
-      animation: blinkCursor 0.9s infinite;
-      fill: #dc2626;
-    }
-
-    /* Animated Progress Underline */
-    @keyframes streamProgress {
+    /* Subtle Progress Stream Bar */
+    @keyframes streamProgressLight {
       0% { stroke-dashoffset: 600; }
       100% { stroke-dashoffset: 0; }
     }
     .stream-line {
-      stroke: url(#streamGrad);
+      stroke: url(#streamGradLight);
       stroke-width: 2.5;
       stroke-linecap: round;
       stroke-dasharray: 600;
-      animation: streamProgress 3s linear infinite;
+      animation: streamProgressLight 4s linear infinite;
     }
 
-    /* Shimmering Badge Pill */
-    @keyframes badgeFloat {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-2px); }
-    }
-    .badge-float {
-      animation: badgeFloat 3s ease-in-out infinite;
-    }
-
-    /* High Authority Dark Typography */
-    .title-dark {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-weight: 700;
-      font-size: 15px;
-      fill: #0f172a; /* Deep Charcoal */
-      letter-spacing: -0.2px;
-    }
     .label-dark {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 700;
       font-size: 11px;
-      fill: #334155; /* Dark Slate */
-      letter-spacing: 0.5px;
+      fill: #334155;
+      letter-spacing: 0.6px;
     }
-    .sub-dark {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    .pill-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      fill: #0f172a;
+    }
+    .pill-sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-weight: 500;
-      font-size: 13px;
-      fill: #475569;
-    }
-    .highlight-red {
-      font-weight: 700;
-      fill: #dc2626; /* Crimson Red */
-    }
-    .highlight-blue {
-      font-weight: 700;
-      fill: #0284c7;
-    }
-    .highlight-purple {
-      font-weight: 700;
-      fill: #7c3aed;
-    }
-    .highlight-green {
-      font-weight: 700;
-      fill: #059669;
+      font-size: 10px;
+      fill: #64748b;
     }
   </style>
 
-  <!-- Card Container -->
-  <rect x="2" y="4" width="1196" height="102" class="card-bg" filter="url(#cardShadow)" />
+  <!-- Card Background -->
+  <rect x="2" y="3" width="1196" height="94" class="radar-card" filter="url(#radarShadow)" />
 
-  <!-- Animated Stream Bar along top of card -->
-  <line x1="24" y1="4" x2="1176" y2="4" class="stream-line" />
+  <!-- Animated Top Stream Accent -->
+  <line x1="24" y1="3" x2="1176" y2="3" class="stream-line" />
 
-  <!-- Top Left: Live Status Beacon -->
-  <g transform="translate(32, 28)">
+  <!-- Top Row: Status Beacon + Verified Credentials Badge -->
+  <!-- Left: Live Status -->
+  <g transform="translate(32, 22)">
     <circle cx="6" cy="6" r="6" class="beacon-pulse" />
     <circle cx="6" cy="6" r="3.5" class="beacon-core" />
     <text x="22" y="10" class="label-dark">LIVE ARCHITECTURE RADAR :</text>
-    <rect x="195" y="-1" width="168" height="18" rx="9" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1" />
-    <text x="207" y="11" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="9.5" fill="#065f46">● OPEN FOR CLIENT PROJECTS</text>
+    <rect x="195" y="-1" width="186" height="19" rx="9.5" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1" />
+    <text x="207" y="12" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="9.5" fill="#065f46">● OPEN FOR CLIENT PROJECTS</text>
   </g>
 
-  <!-- Top Right: Verified Credentials Badge -->
-  <g transform="translate(900, 26)" class="badge-float">
-    <rect x="0" y="0" width="268" height="22" rx="11" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <!-- Right: Verified Heritage Badge -->
+  <g transform="translate(860, 20)">
+    <rect x="0" y="0" width="308" height="23" rx="11.5" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
     <text x="14" y="15" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" font-size="10" fill="#334155">
-      10+ Yrs Exp <tspan fill="#94a3b8">•</tspan> 5+ Yrs Cloud <tspan fill="#94a3b8">•</tspan> SBI Heritage
+      10+ Yrs Exp <tspan fill="#94a3b8">•</tspan> 5+ Yrs Cloud <tspan fill="#94a3b8">•</tspan> State Bank of India Heritage
     </text>
   </g>
 
   <!-- Divider Line -->
   <line x1="32" y1="46" x2="1168" y2="46" stroke="#f1f5f9" stroke-width="1" />
 
-  <!-- Dynamic Typing / Cycling Roles with Dark Colored Font -->
-  <g transform="translate(32, 78)">
-    <!-- Terminal Prompt Icon -->
-    <rect x="0" y="-16" width="22" height="20" rx="4" fill="#0f172a" />
-    <text x="6" y="-2" font-family="monospace" font-weight="700" font-size="12" fill="#38bdf8">&gt;_</text>
-
-    <!-- Slide 1 -->
-    <g class="t-slide1">
-      <text x="36" y="-1" class="title-dark">
-        CURRENT FOCUS: <tspan class="highlight-blue">Enterprise Azure Landing Zones (CAF)</tspan> — Hub-and-Spoke, Azure Firewall, Bastion &amp; UDR Inspection
-      </text>
+  <!-- Bottom Row: 4 Specialization Focus Pillars (Scannable, No Overlap Bug) -->
+  <g transform="translate(32, 54)">
+    <!-- Pillar 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="268" height="34" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="34" rx="2" fill="#0078d4" />
+      <text x="14" y="15" class="pill-title">Azure Landing Zones (CAF)</text>
+      <text x="14" y="27" class="pill-sub">Hub-and-Spoke · Firewall · UDR 0.0.0.0/0</text>
     </g>
 
-    <!-- Slide 2 -->
-    <g class="t-slide2">
-      <text x="36" y="-1" class="title-dark">
-        INFRASTRUCTURE AS CODE: <tspan class="highlight-purple">100% Code-Driven Modular Terraform (1.9+)</tspan> — Remote State Lease Locking &amp; Zero Portal Drift
-      </text>
+    <!-- Pillar 2 -->
+    <g transform="translate(290, 0)">
+      <rect x="0" y="0" width="268" height="34" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="34" rx="2" fill="#7c3aed" />
+      <text x="14" y="15" class="pill-title">Modular Terraform (1.9+)</text>
+      <text x="14" y="27" class="pill-sub">11+ Reusable Child Modules · State Locking</text>
     </g>
 
-    <!-- Slide 3 -->
-    <g class="t-slide3">
-      <text x="36" y="-1" class="title-dark">
-        SHIFT-LEFT DEVSECOPS: <tspan class="highlight-red">Automated PR Security Gates</tspan> — Checkov SAST, tfsec, TFLint &amp; Trivy Vulnerability Scans
-      </text>
+    <!-- Pillar 3 -->
+    <g transform="translate(580, 0)">
+      <rect x="0" y="0" width="268" height="34" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="34" rx="2" fill="#dc2626" />
+      <text x="14" y="15" class="pill-title">Shift-Left DevSecOps</text>
+      <text x="14" y="27" class="pill-sub">Checkov SAST · TFLint · Trivy · OIDC Auth</text>
     </g>
 
-    <!-- Slide 4 -->
-    <g class="t-slide4">
-      <text x="36" y="-1" class="title-dark">
-        ENTERPRISE AI PLATFORMS: <tspan class="highlight-green">Zero-Trust Azure OpenAI (GPT-4o)</tspan> — APIM AI Gateway Token Throttling &amp; Vector RAG
-      </text>
+    <!-- Pillar 4 -->
+    <g transform="translate(870, 0)">
+      <rect x="0" y="0" width="268" height="34" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="34" rx="2" fill="#059669" />
+      <text x="14" y="15" class="pill-title">Enterprise AI Platforms</text>
+      <text x="14" y="27" class="pill-sub">Azure OpenAI · APIM Gateway · Vector RAG</text>
     </g>
-
-    <!-- Slide 5 -->
-    <g class="t-slide5">
-      <text x="36" y="-1" class="title-dark">
-        GOVERNANCE FOUNDATION: <tspan fill="#0f172a">State Bank of India (SBI) Risk Heritage</tspan> — Operational Risk Controls &amp; Zero-Trust Architecture
-      </text>
-    </g>
-
-    <!-- Blinking Cursor at the end -->
-    <rect x="980" y="-16" width="8" height="18" rx="1" class="cursor" />
   </g>
 </svg>
