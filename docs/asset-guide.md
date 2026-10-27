@@ -2,42 +2,44 @@
 
 **Repository:** `sanjiivsingh/sanjiivsingh`  
 **Maintainer:** Sanjeev Singh (`@sanjiivsingh`)  
-**Design Theme:** Premium Minimalist Light Architecture (White/Light Foundation, Charcoal Typography, Red & Green Accents, Zero Dots)
+**Design Theme:** Premium Minimalist Light Architecture (White/Slate Foundation, Charcoal Typography, Restrained Red & Green Accents, Zero Dots)
 
 ---
 
-## 1. Primary Profile Assets
+## 1. Active Profile Assets (100% Utilized)
 
-| Asset Name | Relative Path | File Format | Dimensions / Size | Source / Creation Method | Intended Use & Placement |
-| :--- | :--- | :---: | :---: | :--- | :--- |
-| **Hero Banner** | `assets/banner.png` | PNG | 1200 × 420 px (~209 KB) | Custom Python PIL compositor using authentic studio portrait (`profile.png`), status indicator, and domain badges. Pure light background with **zero dots**. | Top of GitHub profile README. Represents primary personal brand and value proposition. |
-| **Hero Banner (Master)** | `assets/banner-light.png` | PNG | 1200 × 420 px (~209 KB) | Identical high-resolution light-theme master. | Static fallback and high-DPI display asset. |
-| **Live Header Animation** | `assets/header-animation.svg` | SVG | Scalable Vector (~5.1 KB) | Pure CSS-animated live radar card featuring real-time pulse beacon, stream progress bar, and 4 scannable specialization pillars. Zero text collision bugs. | Top header section directly under contact buttons. |
-| **Consulting Services Matrix** | `assets/services-matrix.png` | PNG | 1200 × 330 px (~42 KB) | 4-column modular infographic card highlighting consulting pillars (Azure CAF, GenAI, DevSecOps, AKS Platform). | Section 3: Core Freelance Services & Business Outcomes. |
-| **DevSecOps Quality Gates** | `assets/devsecops-gates.png` | PNG | 1200 × 250 px (~31 KB) | 6-stage shift-left security verification gates card with geometric checkmarks. | Section 5: Automated Shift-Left DevSecOps Delivery Gates. |
-| **AI Landing Zone Thumbnail** | `assets/project-ai-landing-zone.png` | PNG | 960 × 540 px 16:9 (~79 KB) | High-DPI architecture visual for Azure OpenAI, APIM AI Gateway, and Vector RAG Grounding with verified CI badge. | Section 4: Featured Engineering Projects. |
-| **Hub-and-Spoke Thumbnail** | `assets/project-hub-spoke.png` | PNG | 960 × 540 px 16:9 (~86 KB) | High-DPI network architecture visual for Azure Firewall, Bastion, and UDR 0.0.0.0/0 route inspection. | Section 4: Featured Engineering Projects. |
-| **DevSecOps Pipeline Thumbnail** | `assets/project-devsecops.png` | PNG | 960 × 540 px 16:9 (~59 KB) | High-DPI workflow visual for Checkov SAST, TFLint, Trivy container CVE scanning, and AKS deployments. | Section 4: Featured Engineering Projects. |
-| **Terraform Modules Thumbnail** | `assets/project-terraform-modules.png` | PNG | 960 × 540 px 16:9 (~81 KB) | High-DPI architecture visual for 11+ reusable child modules with implicit dependency resolution. | Section 4: Featured Engineering Projects. |
-| **Architecture Pillars** | `assets/architecture-pillars.png` | PNG | 1200 × 280 px (~39 KB) | 4-column production standards card (100% Code-Driven, Zero-Trust, Governance, Resilience). | Reference asset for engineering standards. |
-| **Profile Photograph** | `assets/profile.png` | PNG | 1086 × 1448 px (747 KB) | Original authentic studio portrait of Sanjeev Singh in formal business attire. | Base image for composite header banners, portfolio avatars, and media previews. |
-| **DevSecOps Pipeline Diagram** | `assets/devsecops-pipeline.svg` | SVG | Scalable Vector (13.0 KB) | Hand-crafted light-foundation vector graphic with CSS dash-stream flow animations and status indicators. | Section 5: DevSecOps pipeline visualization inside README. |
-| **Platform Video Preview** | `assets/intro_preview.webp` | WebP | 960 × 540 px 16:9 (27.5 KB) | High-DPI 16:9 video player poster card with centered play indicator. Optimized from 5.9 MB (99.5% reduction). | Section 5: Video reel poster image linking to portfolio video player and MP4 stream. |
-| **Platform Video Reel** | `assets/intro.mp4` | MP4 | 1080p HD (13.0 MB) | Master video recording featuring platform architecture overview. | Linked direct media file for high-bandwidth client streaming. |
-| **Footer Contact Banner** | `assets/footer.png` | PNG | 1200 × 260 px (~20 KB) | Custom Python PIL composition with 4 modular contact cards (Email, LinkedIn, GitHub, Portfolio). Zero dots. | Bottom of README as a cohesive professional closing invitation. |
-| **Contribution Grid Snake** | `assets/snake.svg` | SVG | Scalable Vector (27.2 KB) | GitHub Actions automated contribution graph animation generator. | Profile activity and continuous engineering proof. |
+Every asset listed below is actively referenced and served in the portfolio README:
+
+| Asset Name | Relative Path | File Format | Dimensions / Size | Description & Placement |
+| :--- | :--- | :---: | :---: | :--- |
+| **Hero Studio Banner** | `assets/banner.png` | PNG | 1200 × 420 px (~209 KB) | Studio portrait of Sanjeev Singh, crisp charcoal typography, green availability badge, and zero dots. Profile header. |
+| **Live Architecture Radar** | `assets/header-animation.svg` | SVG | Scalable Vector (~5.1 KB) | Pure CSS-animated live radar card featuring real-time pulse beacon, stream progress bar, and 4 specialization pillars. Top header. |
+| **Platform Video Poster** | `assets/intro_preview.webp` | WebP | 960 × 540 px 16:9 (~34 KB) | High-contrast video player card with centered play button. **Visual Centerpiece** linking to portfolio video player and MP4 stream. |
+| **Platform Video Reel** | `assets/intro.mp4` | MP4 | 1080p HD (12.7 MB) | Master video recording featuring architecture overview and demonstration. Direct streaming media. |
+| **AI Landing Zone Card** | `assets/project-ai-landing-zone.png` | PNG | 960 × 540 px 16:9 (~78 KB) | High-contrast architecture visual for Azure OpenAI, APIM AI Gateway, and Vector RAG Grounding with verified CI badge. Section 4. |
+| **Hub-and-Spoke Card** | `assets/project-hub-spoke.png` | PNG | 960 × 540 px 16:9 (~81 KB) | High-contrast network architecture visual for Azure Firewall, Bastion, and UDR 0.0.0.0/0 route inspection. Section 4. |
+| **DevSecOps Pipeline Card** | `assets/project-devsecops.png` | PNG | 960 × 540 px 16:9 (~47 KB) | High-contrast workflow visual for Checkov SAST, TFLint, Trivy container CVE scanning, and AKS deployments. Section 4. |
+| **Terraform Modules Card** | `assets/project-terraform-modules.png` | PNG | 960 × 540 px 16:9 (~61 KB) | High-contrast architecture visual for 11+ reusable child modules with implicit dependency resolution. Section 4. |
+| **DevSecOps Pipeline Diagram** | `assets/devsecops-pipeline.svg` | SVG | Scalable Vector (~13 KB) | Light-foundation vector graphic with CSS dash-stream flow animations and status indicators. Section 5. |
+| **GitHub Contribution Snake** | `assets/snake.svg` | SVG | Scalable Vector (~27 KB) | Dynamic contribution grid animation illustrating continuous engineering velocity and commit consistency. Section 7. |
+| **Profile Photograph** | `assets/profile.png` | PNG | 1086 × 1448 px (747 KB) | Master authentic studio portrait of Sanjeev Singh in formal business attire. Source for banners. |
+| **Footer Contact Banner** | `assets/footer.png` | PNG | 1200 × 260 px (~20 KB) | Custom composition with 4 modular contact cards (Email, LinkedIn, GitHub, Portfolio). Zero dots. Section 10. |
 
 ---
 
-## 2. Architecture Visuals Across Portfolio Repositories
+## 2. Pruned Legacy Assets (Repository Optimization)
 
-| Repository | Diagram Path / Asset | Diagram Type | Description |
-| :--- | :--- | :---: | :--- |
-| `azure-enterprise-ai-landing-zone-terraform` | `architectures/ai-landing-zone-architecture.svg` | SVG + Mermaid | Zero-Trust Azure OpenAI, APIM AI Gateway, and Azure AI Search Vector RAG architecture. |
-| `azure-landing-zone-enterprise` | `docs/architecture.md` | Mermaid | Multi-tier Management Group hierarchy (Platform, Workloads, Sandboxes) and RBAC inheritance. |
-| `azure-landing-zone-hub-spoke` | `docs/architecture.md` | Mermaid | Hub-and-Spoke topology with Azure Firewall inspection and UDR default route tunneling. |
-| `azure-landing-zone-private-networking` | `docs/architecture.md` | Mermaid | Private Endpoint, Private DNS Zone, and micro-segmentation flow. |
-| `azure-landing-zone-management` | `docs/architecture.md` | Mermaid | Central Log Analytics workspace, diagnostic settings, and metric alerting mesh. |
+To eliminate repository bloat and improve clone times, **10.5+ MB of unused legacy infographics were removed**:
+* `azure-platform.png` (1.67 MB)
+* `devops.png` (1.61 MB)
+* `monitoring.png` (1.68 MB)
+* `security.png` (1.76 MB)
+* `terraform.png` (1.71 MB)
+* `workflow.png` (1.64 MB)
+* `architecture-pillars.png` (39 KB)
+* `devsecops-gates.png` (31 KB)
+* `services-matrix.png` (42 KB - replaced by clean Markdown table to eliminate tiny-text readability issues)
+* `banner-light.png` (209 KB)
 
 ---
 

@@ -49,31 +49,46 @@ I partner with seed-to-scale startups, fintech platforms, and engineering leader
 
 ---
 
-## 🎯 2. Primary Navigation & Direct Links
+## 🎬 2. Visual Centerpiece: Platform Architecture Reel & Video Walkthrough
+
+A visual demonstration of enterprise Azure architecture patterns, container delivery, and security scanning:
+
+<div align="center">
 
 <p align="center">
-  <a href="https://sanjeevsingh.oneps.in"><b>🌐 Consulting Portfolio</b></a> &nbsp;•&nbsp;
-  <a href="#-4-featured-engineering-projects"><b>🌟 Featured Projects</b></a> &nbsp;•&nbsp;
-  <a href="#-5-architecture--delivery-workflow-visuals"><b>📐 Architecture Visuals</b></a> &nbsp;•&nbsp;
-  <a href="#-6-technical-skills--core-competencies"><b>🧰 Technical Skills</b></a> &nbsp;•&nbsp;
-  <a href="#-7-selected-technical-articles--architecture-guides"><b>📖 Architecture Guides</b></a> &nbsp;•&nbsp;
-  <a href="mailto:sanjeevsinghred@gmail.com"><b>🤝 Project Inquiries</b></a>
+  <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/intro_preview.webp" alt="Platform Architecture Reel - Sanjeev Singh" width="95%" style="border-radius: 12px; border: 1px solid rgba(226, 232, 240, 0.8);">
+  </a>
 </p>
+
+<p align="center">
+  <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/▶_Launch_Interactive_Player-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logoColor=white" alt="Live Player" />
+  </a>
+  &nbsp;
+  <a href="./assets/intro.mp4" target="_blank">
+    <img src="https://img.shields.io/badge/🎬_Stream_1080p_Video-Local_MP4-10B981?style=for-the-badge&logoColor=white" alt="Stream MP4" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/sanjiivsingh" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Repository_Source-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
+</div>
 
 ---
 
 ## 💼 3. Core Freelance Services & Business Outcomes
 
-<p align="center">
-  <img src="./assets/services-matrix.png" alt="Consulting Pillars & Freelance Engagement Sprints" width="100%">
-</p>
-
 I provide fixed-price sprint engagements and milestone deliverables with measurable business outcomes:
 
-* **Azure Landing Zone Foundation (CAF):** Clean, auditable multi-account platform with Management Group hierarchies, centralized Azure Firewall transit, Bastion access, and bidirectional VNet peering enforcing UDR default route inspection. *(1–2 Week Fixed-Price Sprint)*
-* **Enterprise AI & GenAI Private Perimeter:** Private Azure OpenAI and internal APIM AI Gateway with token rate throttling (TPM/RPM), semantic prompt caching (reducing repetitive query costs by up to 40%), and Azure AI Search vector grounding with zero public ingress. *(1–2 Week Fixed-Price Sprint)*
-* **Shift-Left DevSecOps & Security Automation:** CI/CD workflows using passwordless Azure OIDC authentication, automated PR static analysis (**Checkov**, **tfsec**, **TFLint**), secret detection (**Gitleaks**), and container image scanning (**Trivy**). *(2–3 Week Milestone Delivery)*
-* **Production Kubernetes (AKS) Enablement:** Modular Terraform provisioning of hardened AKS clusters with Microsoft Entra Workload Identity, Pod Security Contexts, and default-deny NetworkPolicies. *(2–4 Week Project Milestone)*
+| Consulting Service | Client Problem Solved | Core Deliverables | Business Outcome & Timeline |
+| :--- | :--- | :--- | :---: |
+| **Azure Landing Zone Foundation (CAF)** | Fragmented subscriptions, uninspected traffic, and manual network provisioning. | • Management Group hierarchy & subscription governance<br>• Central Azure Firewall, Bastion, & GatewaySubnet<br>• Bidirectional VNet peering with UDR `0.0.0.0/0` traffic inspection | **Clean, auditable cloud platform**<br>`1 – 2 Weeks` *(Fixed-Price Sprint)* |
+| **Enterprise AI & GenAI Private Perimeter** | Exposing proprietary data to public LLM endpoints without token governance or rate limits. | • Private Azure OpenAI (GPT-4o & text-embedding-3)<br>• Internal APIM AI Gateway (TPM/RPM token rate limiting)<br>• Semantic caching reducing prompt costs by up to 40%<br>• Azure AI Search vector database for enterprise RAG | **Secure GenAI with zero public ingress**<br>`1 – 2 Weeks` *(Fixed-Price Sprint)* |
+| **Shift-Left DevSecOps & Security Automation** | Security misconfigurations and hardcoded credentials reaching production uninspected. | • GitHub Actions / ADO CI/CD with passwordless OIDC auth<br>• Pre-commit linters (**TFLint**, **Gitleaks**) on every PR<br>• Automated IaC security scanning (**Checkov** & **tfsec**)<br>• Container image vulnerability scanning (**Trivy**) | **Automated policy gates before deploy**<br>`2 – 3 Weeks` *(Milestone Delivery)* |
+| **Production Kubernetes (AKS) Enablement** | Unhardened container clusters, node sprawl, and complex ingress configurations. | • Production AKS cluster provisioning via modular Terraform<br>• Microsoft Entra Workload Identity federation<br>• Hardened Pod Security Contexts & default-deny NetworkPolicies<br>• Horizontal Pod Autoscaler (HPA) & minimal distroless builds | **Secure, autoscaling container platform**<br>`2 – 4 Weeks` *(Project Milestone)* |
 
 > Detailed sprint breakdowns, deliverables, and client SLAs are available on the [Consulting Portfolio Website →](https://sanjeevsingh.oneps.in)
 
@@ -235,34 +250,6 @@ Security controls and policy validations embedded directly into every stage of t
   <img src="./assets/devsecops-pipeline.svg" alt="Automated Shift-Left DevSecOps Delivery Lifecycle" width="100%">
 </p>
 
-### 4. Platform Architecture Reel & Interactive Video Walkthrough
-
-A visual walkthrough demonstrating enterprise Azure architecture patterns, container delivery, and security scanning:
-
-<div align="center">
-
-<p align="center">
-  <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/intro_preview.webp" alt="Platform Architecture Reel - Sanjeev Singh" width="85%" style="border-radius: 12px; border: 1px solid rgba(226, 232, 240, 0.8);">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/▶_Launch_Interactive_Player-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logoColor=white" alt="Live Player" />
-  </a>
-  &nbsp;
-  <a href="./assets/intro.mp4" target="_blank">
-    <img src="https://img.shields.io/badge/🎬_Stream_1080p_Video-Local_MP4-10B981?style=for-the-badge&logoColor=white" alt="Stream MP4" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/sanjiivsingh" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Repository_Source-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
-
-</div>
-
 ---
 
 ## 🧰 6. Technical Skills & Core Competencies
@@ -280,7 +267,17 @@ A visual walkthrough demonstrating enterprise Azure architecture patterns, conta
 
 ---
 
-## 📖 7. Selected Technical Articles & Architecture Guides
+## 📈 7. Continuous Engineering & GitHub Activity
+
+Consistent, disciplined engineering velocity demonstrated across production modules and open-source infrastructure:
+
+<div align="center">
+  <img src="./assets/snake.svg" alt="GitHub Contribution Snake Animation" width="100%">
+</div>
+
+---
+
+## 📖 8. Selected Technical Articles & Architecture Guides
 
 Deep-dive architectural documentation written from hands-on infrastructure engineering lessons:
 
@@ -297,7 +294,7 @@ Deep-dive architectural documentation written from hands-on infrastructure engin
 
 ---
 
-## 💼 8. Career History & Institutional Governance Heritage
+## 💼 9. Career History & Institutional Governance Heritage
 
 ```text
 ├── FREELANCE / CONTRACT CLOUD & DEVSECOPS ENGINEER (2021 – Present)
@@ -324,7 +321,7 @@ Deep-dive architectural documentation written from hands-on infrastructure engin
 
 ---
 
-## 🤝 9. Discuss a Project / Professional Contact
+## 🤝 10. Discuss a Project / Professional Contact
 
 Whether you need to architect **Enterprise Azure Landing Zones**, adopt **Modular Terraform Infrastructure as Code**, harden **Kubernetes (AKS)** workloads, or establish **Shift-Left DevSecOps Pipelines**, I am available for high-impact freelance consulting and client engagements.
 

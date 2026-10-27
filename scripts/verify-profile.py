@@ -115,11 +115,12 @@ def check_profile_sections():
     required_keywords = [
         "banner.png",
         "Executive Summary & Value Proposition",
-        "Primary Navigation & Direct Links",
+        "Visual Centerpiece: Platform Architecture Reel & Video Walkthrough",
         "Core Freelance Services & Business Outcomes",
         "Featured Engineering Projects",
         "Architecture & Delivery Workflow Visuals",
         "Technical Skills & Core Competencies",
+        "Continuous Engineering & GitHub Activity",
         "Selected Technical Articles & Architecture Guides",
         "Discuss a Project / Professional Contact"
     ]
