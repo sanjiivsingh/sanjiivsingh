@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Hero Banner (Soothing Light Foundation · Editorial Architecture) -->
+<!-- Hero Banner (Spotless Light Foundation · Editorial Architecture · Zero Dots) -->
 <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
   <img src="./assets/banner.png" alt="Sanjeev Singh - Freelance Azure Cloud Engineer | Terraform & Platform Infrastructure" width="100%">
 </a>
@@ -35,23 +35,23 @@
 
 ---
 
-## 🏛️ Professional Overview
+## 🏛️ Executive Summary & Freelance Positioning
 
-I am a **Freelance Azure Cloud Engineer** and **Cloud Infrastructure Consultant** with **10+ years of professional engineering and institutional governance experience**, including **5+ years dedicated to architecting Microsoft Azure platforms, modular Terraform IaC, containerized Kubernetes (AKS) workloads, and automated DevSecOps pipelines**.
+I am an independent **Freelance Azure Cloud Engineer** and **Cloud Infrastructure Consultant** with **10+ years of professional engineering and institutional governance experience**, including **5+ years dedicated to architecting Microsoft Azure platforms, modular Terraform IaC, containerized Kubernetes (AKS) workloads, and automated DevSecOps pipelines**.
 
-I partner with growing businesses, startups, and engineering leaders to solve infrastructure reliability, cloud security, and deployment automation challenges:
+I partner with growing businesses, seed-to-scale startups, fintech platforms, and engineering leaders to solve infrastructure reliability, cloud security, and deployment automation bottlenecks:
 
-* **Eliminating Configuration Drift:** Replacing manual Azure portal modifications with 100% code-driven, modular Terraform configurations backed by remote state locking and multi-environment isolation (Dev, UAT, Production).
+* **Eliminating Configuration Drift:** Replacing manual Azure portal modifications with 100% code-driven, modular Terraform configurations backed by remote state lease locking and multi-environment isolation (Dev, UAT, Production).
 * **Enterprise Cloud Foundations (CAF):** Implementing compliant, multi-subscription Azure Landing Zones with hierarchical Management Groups, central transit Hub-and-Spoke firewalls, and User-Defined Routes (UDR) for forced inspection.
 * **Enterprise AI & GenAI Landing Zones:** Designing Zero-Trust foundations for Generative AI workloads—integrating **Azure OpenAI (GPT-4o)** via private endpoints, API Management as an **AI Gateway** (token rate-limiting, semantic caching), and **Azure AI Search** for vector RAG grounding.
 * **High-Throughput Operational Experience:** Automated and supported Azure infrastructure for a high-volume US-based futures proprietary trading platform serving thousands of concurrent users, focusing on low-drift IaC and rapid disaster recovery.
-* **Institutional Governance Heritage:** 4+ years as **Assistant Manager – Banking Operations / Risk & Compliance at State Bank of India (SBI)**. This tenure instilled an uncompromising, authentic foundation in operational risk controls, least-privilege RBAC, and audit readiness that I translate directly into Zero-Trust cloud defense.
+* **Institutional Governance Heritage:** 4+ years as **Assistant Manager – Banking Operations / Risk & Compliance at State Bank of India (SBI)**. This tenure instilled an authentic foundation in operational risk controls, least-privilege RBAC, and audit readiness that I translate directly into Zero-Trust cloud defense.
 
 ---
 
 ## 🎯 Primary Calls to Action
 
-| Destination | Purpose | Link |
+| Destination | Purpose | Direct Link |
 | :--- | :--- | :---: |
 | **Consulting Portfolio** | Interactive case studies, architecture walkthroughs, and live video demos | [**sanjeevsingh.oneps.in →**](https://sanjeevsingh.oneps.in) |
 | **Featured Projects** | Production-ready Terraform Landing Zones and DevSecOps pipelines | [**Inspect Repositories →**](#-featured-engineering-projects) |
@@ -61,18 +61,37 @@ I partner with growing businesses, startups, and engineering leaders to solve in
 
 ---
 
-## 💼 Freelance Services & Business Outcomes
+## 💼 Freelance Services & Engagement Models
 
-I offer fixed-scope sprints, milestone-based deliveries, and ongoing consulting retainers tailored to business outcomes:
+<p align="center">
+  <img src="./assets/services-matrix.png" alt="Consulting Pillars & Freelance Engagement Sprints" width="100%">
+</p>
 
-| Service Category | Problem Solved & Business Outcome | Key Deliverables |
-| :--- | :--- | :--- |
-| **Azure Cloud Foundations & Landing Zones** | Eliminates ungoverned subscriptions and fragmented networks. Establishes a scalable, CAF-compliant multi-account hierarchy with enterprise security controls from day one. | • Management Group hierarchy & subscription placement<br>• Central Azure Firewall, Bastion, & GatewaySubnet<br>• Bidirectional VNet peering with UDR default route inspection<br>• Azure Policy initiatives and regulatory guardrails |
-| **Modular Terraform & IaC Automation** | Removes repetitive manual portal setups and deployment errors. Provides version-controlled, tested, and reproducible infrastructure as code. | • Multi-tier reusable child-module library<br>• Azure Blob remote backend with state lease locking<br>• Dynamic blocks, local maps, and strict input validation<br>• Environment decoupling across Dev, Staging, and Production |
-| **CI/CD Pipelines & DevSecOps Automation** | Accelerates deployment velocity while preventing misconfigurations and credential leakage before code merges. | • GitHub Actions & Azure DevOps continuous delivery<br>• Passwordless Azure OIDC federated authentication<br>• SAST security scanning with **Checkov** and **tfsec**<br>• Pre-commit linters (**TFLint**, **Gitleaks**) and approval gates |
-| **Cloud Networking & Zero-Trust Defense** | Protects internal data and PaaS services from public internet exposure and unauthorized lateral movement. | • Private Endpoints & automated Private DNS zone resolution<br>• Network Security Groups (NSGs) with micro-segmentation<br>• Application Gateway (WAF v2) reverse proxying<br>• Azure Key Vault HSM credential and certificate isolation |
-| **Container & Kubernetes Enablement (AKS)** | Enables reliable container delivery without operational bottlenecks, poor isolation, or node sprawl. | • Hardened Azure Kubernetes Service (AKS) provisioning<br>• Microsoft Entra Workload Identity federation<br>• NetworkSecurityPolicies and Ingress NGINX<br>• Trivy container image scanning & ACR publishing |
-| **Architecture Reviews & Security Audits** | Uncovers configuration drift, orphaned cloud resources, over-provisioned spend, and compliance gaps. | • Comprehensive architectural assessment report<br>• FinOps cost-optimization and right-sizing roadmap<br>• CIS Azure Benchmark compliance matrix & remediation backlog |
+I provide fixed-price sprint engagements, milestone deliverables, and advisory retainers with predictable outcomes and zero scope ambiguity:
+
+| Service Sprint | Client Problem Solved | Core Deliverables | Typical Timeline |
+| :--- | :--- | :--- | :---: |
+| **Azure Landing Zone Foundation (CAF)** | Fragmented subscriptions, uninspected traffic, and manual network provisioning. | • Management Group hierarchy & subscription placement<br>• Central Azure Firewall, Bastion, & GatewaySubnet<br>• Bidirectional VNet peering with UDR default route inspection<br>• Azure Policy compliance initiatives & region guardrails | **1 – 2 Weeks**<br>(Fixed-Price Sprint) |
+| **Enterprise AI & GenAI Private Perimeter** | Exposing proprietary data to public LLM endpoints without token governance or rate limits. | • Private Azure OpenAI (GPT-4o & text-embedding-3)<br>• Internal APIM AI Gateway (TPM/RPM token rate limiting)<br>• Semantic caching to reduce recurring inference costs<br>• Azure AI Search vector database for enterprise RAG | **1 – 2 Weeks**<br>(Fixed-Price Sprint) |
+| **Shift-Left DevSecOps & Security Automation** | Vulnerabilities and hardcoded credentials reaching production environments uninspected. | • GitHub Actions / Azure DevOps CI/CD with OIDC auth<br>• Pre-commit linters (**TFLint**, **Gitleaks**) on every PR<br>• Automated IaC security scanning (**Checkov** & **tfsec**)<br>• Container image scanning (**Trivy**) & manual approval gates | **2 – 3 Weeks**<br>(Milestone Delivery) |
+| **Production Kubernetes (AKS) Enablement** | Unhardened container clusters, node sprawl, and complex ingress configurations. | • Production AKS cluster provisioning via Terraform<br>• Microsoft Entra Workload Identity federation<br>• K8s NetworkSecurityPolicies & Ingress NGINX<br>• Horizontal Pod Autoscaler (HPA) & minimal distroless builds | **2 – 4 Weeks**<br>(Project / Milestone) |
+| **Cloud Architecture & Security Posture Audit** | Ballooning cloud spend, configuration drift, and unverified compliance postures. | • Subscriptions & IAM security review against CIS Benchmarks<br>• FinOps cost-optimization and right-sizing report<br>• Prioritized refactoring backlog & architecture roadmap | **3 – 5 Days**<br>(Advisory Audit) |
+| **Fractional Cloud Platform Engineering** | Need senior architectural leadership without the full-time overhead of an agency. | • Terraform module maintenance & peer review<br>• Platform upgrades, state drift remediation, & disaster recovery<br>• Mentoring engineering teams on cloud-native best practices | **Monthly Retainer**<br>(Ongoing Advisory) |
+
+---
+
+## 🛡️ Production Standards & Engineering Pillars
+
+<p align="center">
+  <img src="./assets/architecture-pillars.png" alt="Production Engineering & Architectural Pillars" width="100%">
+</p>
+
+Every infrastructure component I deliver adheres to four non-negotiable operational principles:
+
+1. **100% Code-Driven Infrastructure:** Zero manual clicks in the Azure Portal. Every resource group, virtual network, security rule, and diagnostic setting is defined in versioned, peer-reviewed Terraform code.
+2. **Zero-Trust Network Perimeter:** No PaaS service is exposed to the public internet. Connectivity is mediated through Private Endpoints, centralized Private DNS zones, and Azure Firewall inspection.
+3. **Institutional Governance & Compliance:** Translating 4+ years of State Bank of India risk-management heritage into cloud engineering: least-privilege RBAC, automated audit trails, customer-managed encryption keys (CMK), and separation of duties.
+4. **Operational Resilience & Low Drift:** Hardened through supporting a high-throughput US futures trading platform. Remote state locking in Azure Blob Storage prevents concurrent deployment collisions and enables sub-minute disaster recovery.
 
 ---
 
@@ -231,15 +250,21 @@ flowchart LR
     style OAI fill:#082f49,stroke:#38bdf8,stroke-width:1.5px,color:#fff
 ```
 
-### 2. Enterprise DevSecOps Pipeline & Continuous Delivery Engine
-
-Security is integrated at every stage of the infrastructure and container delivery lifecycle:
+### 2. Automated Shift-Left DevSecOps Delivery Gates
 
 <p align="center">
-  <img src="./assets/devsecops-pipeline.svg" alt="Enterprise DevSecOps Pipeline Architecture" width="100%" />
+  <img src="./assets/devsecops-gates.png" alt="Automated Shift-Left DevSecOps Delivery Gates" width="100%">
 </p>
 
-### 3. CAF Hub-and-Spoke Network Routing Topology
+### 3. End-to-End DevSecOps Pipeline Flow Diagram
+
+Security controls are embedded directly into every stage of the infrastructure and container delivery lifecycle:
+
+<p align="center">
+  <img src="./assets/devsecops-pipeline.svg" alt="Enterprise DevSecOps Pipeline Architecture" width="100%">
+</p>
+
+### 4. CAF Hub-and-Spoke Network Routing Topology
 
 A standardized transit Hub network routing all spoke-to-spoke and spoke-to-internet traffic through Azure Firewall:
 
