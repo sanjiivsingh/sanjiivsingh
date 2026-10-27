@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Hero Banner (Spotless Light Foundation · Editorial Architecture · Zero Dots) -->
+<!-- Hero Banner (Spotless Light Foundation · Fair Filter Studio Portrait · Zero Dots) -->
 <a href="https://sanjeevsingh.oneps.in" target="_blank" rel="noopener noreferrer">
   <img src="./assets/banner.png" alt="Sanjeev Singh - Freelance Azure Cloud Engineer | Terraform & Platform Infrastructure" width="100%">
 </a>
@@ -26,9 +26,9 @@
   </a>
 </p>
 
-<!-- Subtitle / Business Focus -->
+<!-- Live Animated Architecture & Status Radar (Dark Colored Typography · Real-Time Cycling) -->
 <p align="center">
-  <b>Azure Landing Zones (CAF)</b> • <b>Production Terraform IaC</b> • <b>Shift-Left DevSecOps</b> • <b>Banking Governance Heritage (SBI)</b>
+  <img src="./assets/header-animation.svg" alt="Live Architecture Radar & Consulting Status" width="100%">
 </p>
 
 </div>
