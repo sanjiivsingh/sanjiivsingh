@@ -49,9 +49,9 @@ I partner with seed-to-scale startups, fintech platforms, and engineering leader
 
 ---
 
-## 🎬 2. Visual Centerpiece: Platform Architecture Reel & Video Walkthrough
+## 🎬 2. Engineering Introduction: Cloud Architecture & Platform Walkthrough
 
-A visual demonstration of enterprise Azure architecture patterns, container delivery, and security scanning:
+An executive walkthrough of enterprise Azure architecture patterns, reusable Terraform modules, and automated DevSecOps delivery:
 
 <div align="center">
 
