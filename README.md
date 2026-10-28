@@ -66,8 +66,8 @@ A visual demonstration of enterprise Azure architecture patterns, container deli
     <img src="https://img.shields.io/badge/▶_Launch_Interactive_Player-sanjeevsingh.oneps.in-0078D4?style=for-the-badge&logoColor=white" alt="Live Player" />
   </a>
   &nbsp;
-  <a href="./assets/intro.mp4" target="_blank">
-    <img src="https://img.shields.io/badge/🎬_Stream_1080p_Video-Local_MP4-10B981?style=for-the-badge&logoColor=white" alt="Stream MP4" />
+  <a href="./assets/introduction.mp4" target="_blank">
+    <img src="https://img.shields.io/badge/🎬_Stream_Introduction_Video-Local_MP4-10B981?style=for-the-badge&logoColor=white" alt="Stream MP4" />
   </a>
   &nbsp;
   <a href="https://github.com/sanjiivsingh" target="_blank" rel="noopener noreferrer">
