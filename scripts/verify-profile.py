@@ -108,21 +108,19 @@ def check_no_secrets():
         print("  ✓ Zero secrets or credentials detected")
 
 def check_profile_sections():
-    print("\nVerifying 9 required portfolio sections:")
+    print("\nVerifying required profile sections:")
     with open(README_PATH, "r") as f:
         content = f.read()
 
     required_keywords = [
         "banner.png",
-        "Executive Summary & Value Proposition",
-        "Engineering Introduction: Cloud Architecture & Platform Walkthrough",
-        "Core Freelance Services & Business Outcomes",
-        "Featured Engineering Projects",
-        "Architecture & Delivery Workflow Visuals",
-        "Technical Skills & Core Competencies",
-        "Continuous Engineering & GitHub Activity",
-        "Selected Technical Articles & Architecture Guides",
-        "Discuss a Project / Professional Contact"
+        "Executive Summary",
+        "Consulting Services & Outcomes",
+        "Featured Engineering Repositories",
+        "Technical Competencies",
+        "Delivery Model: Fixed-Price Sprints",
+        "Discuss a Project / Contact",
+        "case-studies/trading-platform.md"
     ]
 
     for kw in required_keywords:
