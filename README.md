@@ -3,12 +3,13 @@
 </p>
 
 <h1 align="center">Sanjeev Singh</h1>
-<p align="center"><b>Senior Azure Cloud Infrastructure & DevSecOps Engineer | Freelance Consultant</b></p>
+<p align="center"><b>Senior Azure Cloud Architect &amp; DevSecOps Platform Engineer | Enterprise Infrastructure Consultant</b></p>
 
 <p align="center">
   <a href="https://sanjeevsingh.oneps.in"><img src="https://img.shields.io/badge/Portfolio-sanjeevsingh.oneps.in-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/sanjiivsingh"><img src="https://img.shields.io/badge/GitHub-sanjiivsingh-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="#-discuss-a-project--contact"><img src="https://img.shields.io/badge/Availability-Open%20for%20Engagements-brightgreen?style=flat-square" alt="Status" /></a>
+  <a href="case-studies/trading-platform.md"><img src="https://img.shields.io/badge/Case%20Study-Trading%20Infrastructure-amber?style=flat-square" alt="Case Study" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" /></a>
 </p>
 
@@ -16,9 +17,9 @@
 
 ## 📋 Executive Summary
 
-Senior Azure Cloud Engineer specializing in enterprise Terraform landing zones, Kubernetes (AKS) security, and automated DevSecOps pipelines. Successfully engineered modular Infrastructure as Code (IaC) architectures with zero-plaintext credential exposure via passwordless GitHub Actions OIDC federation and static policy guardrails. My technical background spans hands-on electronic trading infrastructure, regulatory compliance frameworks (CIS Azure Benchmark v2.0 & NIST SP 800-53), and multi-region platform reliability. I partner directly with engineering leaders to design, automate, and deliver auditable, cost-governed cloud infrastructure across structured, fixed-price delivery sprints.
+Senior Azure Cloud Architect and DevSecOps Platform Engineer specializing in enterprise Terraform landing zones, Kubernetes (AKS) security, and automated CI/CD pipelines. With **10+ years of institutional IT and risk governance heritage** (State Bank of India) and **5+ years dedicated to Microsoft Azure architecture**, I design and deliver Zero-Trust cloud platforms with zero-plaintext credential exposure via passwordless GitHub Actions OIDC federation and static policy guardrails. My background includes architecting production cloud platforms for high-throughput electronic trading environments, regulatory compliance baselines (CIS Azure Benchmark v2.0 & NIST SP 800-53), and multi-region operational reliability. I partner directly with engineering leadership through structured, fixed-price delivery sprints.
 
-> **Engineering Deep-Dive**: Read the sanitized case study on migrating high-throughput financial infrastructure to Azure: [Case Study: Enterprise Cloud Migration & Trading Platform Infrastructure](case-studies/trading-platform.md).
+> **Engineering Deep-Dive**: Review the sanitized case study on migrating high-throughput financial infrastructure to Azure: [Case Study: Enterprise Cloud Migration & Trading Platform Infrastructure](case-studies/trading-platform.md).
 
 ---
 
@@ -26,10 +27,12 @@ Senior Azure Cloud Engineer specializing in enterprise Terraform landing zones, 
 
 | Service Engagement | Technical Scope | Deliverable Outcome |
 | :--- | :--- | :--- |
-| **Azure Enterprise Landing Zones** | CAF-aligned Hub-and-Spoke, Azure Virtual WAN, Azure Firewall Standard/Premium, private DNS, and route table automation. | Deterministic, multi-region network isolation with automated spoke-to-spoke traffic inspection. |
-| **Enterprise AI Landing Zones** | Secure Azure OpenAI deployments, APIM token rate limiting, Customer-Managed Keys (CMK), and Private Link. | Resilient, compliant AI inference platform shielded from public exposure and API quota exhaustion. |
-| **AKS & DevSecOps Pipelines** | Hardened private Kubernetes clusters, Calico NetworkPolicy, Azure Key Vault CSI secret rotation, and OIDC pipelines. | Zero-trust container runtime with automated Gitleaks secret detection and Checkov/Trivy policy gates. |
-| **FinOps & Policy Governance** | Azure Policy initiatives, Management Group hierarchy, subscription vending, and Infracost CI cost gates. | Automated guardrails preventing runaway cloud expenditure and enforcing mandatory tagging. |
+| **Azure Enterprise Landing Zones** | CAF Hub-and-Spoke mesh, Azure Firewall Standard, Azure Bastion, private DNS zones, and automated UDR route table inspection. | Deterministic, multi-region network isolation with automated spoke-to-spoke traffic inspection. |
+| **Enterprise AI Landing Zones** | Secure Azure OpenAI deployments (GPT-4o), APIM AI Gateway token rate-limiting, Customer-Managed Keys (CMK), and Private Link. | Resilient, compliant AI inference platform shielded from public exposure and API quota exhaustion. |
+| **AKS & DevSecOps Pipelines** | Hardened private Kubernetes clusters, Calico NetworkPolicy, Azure Key Vault CSI secret rotation, and passwordless OIDC pipelines. | Zero-trust container runtime with automated Gitleaks secret detection, Checkov/Trivy gates, and deployment approvals. |
+| **FinOps & Policy Governance** | Custom Azure Policy initiatives, Management Group hierarchy, subscription vending, and Infracost CI cost gates. | Automated guardrails preventing runaway cloud expenditure and enforcing mandatory tagging. |
+| **Disaster Recovery & Reliability** | Sanitized runbooks as code (AKS Velero restore, Key Vault recovery, Storage failover), Log Analytics baseline, and KQL query packs. | Deterministic disaster recovery procedures with tested sandbox drill logs and centralized telemetry. |
+| **Enterprise IaC Module Libraries** | 11+ decoupled, reusable Terraform child modules with pinned provider constraints and pre-commit automation. | Production-tested IaC building blocks eliminating repetitive configuration boilerplate across teams. |
 
 ---
 
@@ -72,6 +75,8 @@ Each featured repository includes full Terraform source code, automated CI linti
 [![Terraform Validate](https://github.com/sanjiivsingh/azure-landing-zone-governance/actions/workflows/terraform-validate.yml/badge.svg)](https://github.com/sanjiivsingh/azure-landing-zone-governance/actions)
 - **Scope**: Azure Policy as Code and subscription governance.
 - **Key Features**: Custom policy initiatives enforcing location guardrails, mandatory FinOps tagging (`CostCenter`, `Owner`), TLS 1.2+ storage restrictions, and subscription vending.
+
+> **Platform Baselines**: Also explore [`azure-observability-baseline`](https://github.com/sanjiivsingh/azure-observability-baseline) (Log Analytics & KQL packs), [`azure-finops-guardrails`](https://github.com/sanjiivsingh/azure-finops-guardrails) (Budgets & Infracost CI), and [`azure-dr-runbooks`](https://github.com/sanjiivsingh/azure-dr-runbooks) (Tested disaster recovery procedures).
 
 ---
 
