@@ -103,3 +103,4 @@ All 24 repositories across the GitHub profile were audited in Phase 0. Across Ph
 4. **Update Profile Bio (Optional)**:
    - When running `gh auth refresh -s user`, update your public GitHub bio to:
      `Senior Azure Cloud & DevSecOps Engineer | Enterprise Landing Zones (CAF), Kubernetes (AKS), Terraform | Consulting: sanjeevsingh.oneps.in`
+

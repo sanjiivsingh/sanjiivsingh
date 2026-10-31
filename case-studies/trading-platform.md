@@ -34,3 +34,4 @@ A high-throughput electronic trading client required a resilient, security-harde
 - **Deterministic Deployments**: Reduced environment provisioning lead time from days to repeatable automated runs via Terraform.
 - **Operational Resilience**: Established documented disaster recovery runbooks with automated state restoration via Velero.
 - **Performance & Throughput Metrics**: *[Client-confirmed quantitative metrics: TBD]* (Qualitative outcome: Achieved continuous sub-millisecond inter-service communication across dedicated private endpoints and isolated subnets).
+
