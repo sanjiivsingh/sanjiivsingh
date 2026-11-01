@@ -16,7 +16,7 @@ Keep claims tied to repository evidence and clearly distinguish lab/reference wo
 <p>
   <a href="https://sanjeevsingh.oneps.in"><img src="https://img.shields.io/badge/Portfolio-OnePS-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/sanjiivsingh"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:contact@oneps.in"><img src="https://img.shields.io/badge/Contact-Project%20%26%20Role%20Enquiries-16A34A?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" /></a>
+  <a href="https://sanjeevsingh.oneps.in/#contact"><img src="https://img.shields.io/badge/Contact-Project%20%26%20Role%20Enquiries-16A34A?style=for-the-badge&logo=maildotru&logoColor=white" alt="Contact" /></a>
 </p>
 
 **Open to:** Azure DevOps / Cloud Engineering roles · Contract work · Freelance infrastructure projects
