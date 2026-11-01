@@ -2,3 +2,4 @@ gemini_generated_video_*.mp4
 *.wav
 *.tmp
 
+audit_repos_*.json
