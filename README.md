@@ -12,6 +12,7 @@
   <a href="https://sanjeevsingh.oneps.in"><img src="https://img.shields.io/badge/Portfolio-sanjeevsingh.oneps.in-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/sanjiivsingh"><img src="https://img.shields.io/badge/LinkedIn-sanjiivsingh-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="#-discuss-a-project--contact"><img src="https://img.shields.io/badge/Availability-Open%20for%20Client%20Engagements-brightgreen?style=flat-square" alt="Status" /></a>
+  <a href="https://hub.xerj.org/contributors/sanjiivsingh"><img src="https://hub.xerj.org/contributors/sanjiivsingh/badge.svg" alt="XERJ Corpus Hub Contributor" /></a>
   <a href="case-studies/trading-platform.md"><img src="https://img.shields.io/badge/Case%20Study-Trading%20Infrastructure-amber?style=flat-square" alt="Case Study" /></a>
   <a href="https://github.com/sanjiivsingh"><img src="https://img.shields.io/badge/Identity-Zero--Plaintext%20OIDC-10b981?style=flat-square&logo=github&logoColor=white" alt="OIDC Verified" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" /></a>
@@ -32,6 +33,8 @@ My background includes architecting production cloud platforms for high-throughp
 
 > 📊 **Engineering Deep-Dive**: Review the sanitized case study on migrating high-throughput financial infrastructure to Azure:  
 > 👉 [**Case Study: Enterprise Cloud Migration & Trading Platform Infrastructure**](case-studies/trading-platform.md)
+
+> 🌟 **Featured Open-Source Contributor**: Selected as an official contributor on the [**XERJ Corpus Hub**](https://hub.xerj.org/contributors/sanjiivsingh) &mdash; an open reference memory indexed for autonomous AI coding agents. My modular Terraform architecture ([`terraform-azure-foundation`](https://github.com/sanjiivsingh/terraform-azure-foundation)) was verified and indexed as a ground-truth worked reference for enterprise Azure infrastructure synthesis.
 
 ---
 
@@ -55,6 +58,14 @@ Every repository adheres to a strict, automated shift-left security lifecycle wi
 | **FinOps & Policy Governance** | Custom Azure Policy initiatives, Management Group hierarchy, subscription vending, and Infracost CI cost gates. | Automated guardrails preventing runaway cloud expenditure and enforcing mandatory tagging. |
 | **Disaster Recovery & Reliability** | Sanitized runbooks as code (AKS Velero restore, Key Vault recovery, Storage failover), Log Analytics baseline, and KQL query packs. | Deterministic disaster recovery procedures with tested sandbox drill logs and centralized telemetry. |
 | **Enterprise IaC Module Libraries** | 11+ decoupled, reusable Terraform child modules with pinned provider constraints and pre-commit automation. | Production-tested IaC building blocks eliminating repetitive configuration boilerplate across teams. |
+
+---
+
+## 🏆 Industry Recognition & Open-Source AI Corpus
+
+| Platform & Verified Badge | Featured Architecture | Recognition & AI Agent Retrieval Impact |
+| :--- | :--- | :--- |
+| <a href="https://hub.xerj.org/contributors/sanjiivsingh"><img src="https://hub.xerj.org/contributors/sanjiivsingh/badge.svg" alt="XERJ Corpus Hub Contributor" /></a><br/>**[XERJ Corpus Hub](https://hub.xerj.org/contributors/sanjiivsingh)** | [**sanjiivsingh / terraform-azure-foundation**](https://github.com/sanjiivsingh/terraform-azure-foundation)<br/>`Enterprise Modular IaC Framework` | Selected and indexed on the **XERJ Corpus Hub**, the open reference memory AI coding agents search before writing code. When autonomous agents synthesize Azure modular infrastructure, this repository is retrieved as a ground-truth worked example with exact file and line citations. |
 
 ---
 
@@ -144,7 +155,12 @@ Each featured repository includes full Terraform source code, automated CI linti
 - **Key Capabilities**: Custom policy initiatives enforcing location guardrails, mandatory FinOps tagging (`CostCenter`, `Owner`), TLS 1.2+ storage restrictions, and subscription vending.
 - **Verification & ADR**: Review [ARCHITECTURE.md](https://github.com/sanjiivsingh/azure-landing-zone-governance/blob/main/docs/ARCHITECTURE.md) and [docs/EVIDENCE.md](https://github.com/sanjiivsingh/azure-landing-zone-governance/blob/main/docs/EVIDENCE.md).
 
-> 💡 **Additional Platform Baselines**: Also explore [`azure-observability-baseline`](https://github.com/sanjiivsingh/azure-observability-baseline) (Log Analytics & KQL packs), [`azure-finops-guardrails`](https://github.com/sanjiivsingh/azure-finops-guardrails) (Budgets & Infracost CI), and [`azure-dr-runbooks`](https://github.com/sanjiivsingh/azure-dr-runbooks) (Tested disaster recovery procedures).
+> 💡 **Additional Platform Baselines & Verified Corpora**:
+> - 🏆 [**terraform-azure-foundation**](https://github.com/sanjiivsingh/terraform-azure-foundation) &mdash; **Featured on [XERJ Corpus Hub](https://hub.xerj.org/contributors/sanjiivsingh)** as an AI agent worked reference implementation.
+> - 🔒 [`azure-storage-private-link-terraform`](https://github.com/sanjiivsingh/azure-storage-private-link-terraform) (Dedicated Private Link, Endpoints & DNS).
+> - 🔭 [`azure-observability-baseline`](https://github.com/sanjiivsingh/azure-observability-baseline) (Log Analytics & KQL packs).
+> - 💰 [`azure-finops-guardrails`](https://github.com/sanjiivsingh/azure-finops-guardrails) (Budgets & Infracost CI).
+> - 🛡️ [`azure-dr-runbooks`](https://github.com/sanjiivsingh/azure-dr-runbooks) (Tested disaster recovery procedures).
 
 ---
 
